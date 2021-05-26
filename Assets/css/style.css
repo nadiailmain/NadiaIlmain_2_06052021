@@ -13,7 +13,7 @@ main {
   padding: 0 50px 40px;
 }
 
-h2 {
+h1 {
   margin-bottom: 0;
 }
 
@@ -175,7 +175,7 @@ h1 {
   color: #0065fc;
 }
 /* ********hebergements********* */
-.block-host_block-pop {
+.bloc-hosting_bloc-mostpopular {
   display: inline-flex;
   gap: 40px;
 }
