@@ -278,40 +278,40 @@ h3 {
   background-color: #f2f2f2;
   border-radius: 20px;
 }
-.box-popular {
+.box-mostpopular {
   display: flex;
   flex-direction: column;
   padding: 0 40px 40px;
 }
-.gap-pop {
+.gap-mostpopular {
   display: flex;
   flex-direction: column;
   gap: 30px;
   padding-top: 5px;
 }
-.box-pop-title {
+.box-mostpopular-title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
 }
-.box-pop-title .fas {
+.box-mostpopular-title .fas {
   font-size: larger;
 }
-.card-pop {
+.card-mostpopular {
   display: flex;
   background-color: #ffffff;
   border-radius: 20px;
   padding: 5px;
   box-shadow: 0px 0px 10px 3px #8080802b;
 }
-.carte-pop .details {
+.carte-mostpopular .details {
   margin-right: 15px;
 }
 .stars.pop {
   position: absolute;
 }
-#block-pop img {
+#block-mostpopular img {
   width: 40%;
   border-bottom-left-radius: 15px;
   object-fit: cover;
