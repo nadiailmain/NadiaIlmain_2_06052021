@@ -175,7 +175,7 @@ h1 {
 
 /* ********hebergements********* */
 .block-hosting_block-mostpopular {
-  display: inline-flex;
+  display: display-inside;
   gap: 40px;
 }
 
@@ -346,12 +346,12 @@ h3 {
 
 /* **********Activités********** */
 
-.block-activity {
+.block-activities {
   width: auto;
 
   padding-top: 25px;
 }
-.box-img {
+.box-images {
   display: flex;
   gap: 2.5em;
 }
