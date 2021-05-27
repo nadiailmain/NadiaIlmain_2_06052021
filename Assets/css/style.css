@@ -37,8 +37,6 @@ nav {
   justify-content: space-around;
 }
 
-
-
 a {
   color: black;
   text-decoration: none;
@@ -356,7 +354,7 @@ h3 {
   gap: 2.5em;
 }
 
-.activities,
+.activity,
 .card-activity {
   background-color: white;
   box-shadow: 0px 0px 10px 3px #8080802b;
@@ -420,7 +418,7 @@ footer {
   width: 100%;
 }
 
-.footer_column {
+.footer-column {
   padding: 10px 210px 10px 30px;
 }
 
@@ -440,3 +438,9 @@ footer li {
   padding: 10px 0 0 0;
   list-style: none;
 }
+
+
+
+
+
+
