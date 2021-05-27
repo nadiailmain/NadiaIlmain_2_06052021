@@ -118,7 +118,7 @@ h1 {
   align-items: center;
 }
 
-.filterphoto > h2 {
+.filterphoto> h2 {
   font-size: large;
   padding: 0 1em 0 0;
 }
@@ -279,7 +279,7 @@ h3 {
   margin: 0;
 }
 
-/* **********les plus populaires********** */
+/* ********** Most popular********** */
 
 #block-mostpopular {
   width: 30%;
@@ -398,7 +398,7 @@ h3 {
 .card-activity h3 {
   margin: 15px;
 }
-/*pied de page*/
+/* ****Footer**** */
 
 footer {
   background-color: #f2f2f2;
@@ -439,8 +439,7 @@ footer li {
   padding: 10px 0 0 0;
   list-style: none;
 }
-
-
+/* ***** Responsive Mobile **** */
 
 
 
