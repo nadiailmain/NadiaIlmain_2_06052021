@@ -440,7 +440,7 @@ footer li {
   list-style: none;
 }
 /* ***** Responsive Mobile **** */
-
+@media screen and (max-width: 767px) {
 
 
 
