@@ -32,16 +32,12 @@ h1 {
 
 nav {
   display: flex;
-  width: 35%;
+  width: 30%;
   font-size: 14px;
   justify-content: space-around;
 }
 
-li {
-  right: 0px;
-  margin: 0px;
-  list-style: none;
-}
+
 
 a {
   color: black;
@@ -176,11 +172,13 @@ h1 {
   text-align: center;
   color: #0065fc;
 }
+
 /* ********hebergements********* */
 .block-hosting_block-mostpopular {
   display: inline-flex;
   gap: 40px;
 }
+
 .menu h2,
 .title {
   font-size: 20px;
@@ -192,11 +190,13 @@ h1 {
   font-weight: bolder;
   margin: 5px 0 5px 0;
 }
+
 .card-hosting .details p {
   font-size: 0.8em;
   margin: 5px 0 5px 0;
   clear: both;
 }
+
 h3 {
   font-size: 14px;
   margin-bottom: 5px;
@@ -210,6 +210,7 @@ h3 {
   border-radius: 20px;
   padding: 0 40px;
 }
+
 .box-hosting card-hosting {
   box-shadow: 0px 0px 10px 3px #8080802b;
   border-radius: 20px;
@@ -217,6 +218,7 @@ h3 {
   margin: 1em;
   margin-left: 2em;
 }
+
 .fas.fa-star.full {
   color: #0065fc;
 }
@@ -233,12 +235,14 @@ h3 {
   flex-direction: row;
   gap: 20px;
 }
+
 .firstline,
 .secondline {
   display: flex;
   column-gap: 30px;
   width: 100%;
 }
+
 .card-hosting {
   background-color: white;
   width: 33%;
@@ -253,23 +257,29 @@ h3 {
   border-radius: 15px 15px 0 0;
   object-fit: cover;
 }
+
 .details {
   margin-left: 10px;
   position: relative;
 }
+
 .details p {
   font-size: 14px;
 }
+
 .stars {
   font-size: 0.7em;  
 }
+
 .show-more {
   padding: 40px 0 0;
   font-weight: 800;
 }
+
 .show-more p {
   margin: 0;
 }
+
 /* **********les plus populaires********** */
 
 #block-mostpopular {
@@ -285,21 +295,25 @@ h3 {
   flex-direction: column;
   padding: 0 40px 40px;
 }
+
 .gap-mostpopular {
   display: flex;
   flex-direction: column;
   gap: 30px;
   padding-top: 5px;
 }
+
 .box-mostpopular-title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
 }
+
 .box-mostpopular-title .fas {
   font-size: larger;
 }
+
 .card-mostpopular {
   display: flex;
   background-color: #ffffff;
@@ -307,9 +321,11 @@ h3 {
   padding: 5px;
   box-shadow: 0px 0px 10px 3px #8080802b;
 }
+
 .card-mostpopular .details {
   margin-right: 15px;
 }
+
 .stars.pop {
   position: absolute;
 }
@@ -327,7 +343,9 @@ h3 {
   border-top-left-radius: 15px;
   border-top-right-radius: 0px;
 }
+
 /* **********Activités********** */
+
 .block-activity {
   width: auto;
 
