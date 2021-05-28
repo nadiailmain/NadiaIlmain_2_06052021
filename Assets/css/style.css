@@ -361,15 +361,17 @@ h3 {
   box-shadow: 0px 0px 10px 3px #8080802b;
   border-radius: 20px;
 }
+
 .card-activity2,
 .card-activity3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.card-activity image {
+.card-activity img {
   object-fit: cover;
 }
+
 .image1 {
   width: 100%;
   height: 390px;
@@ -447,4 +449,40 @@ main {
   padding: 0;
   margin: 0;
   width: auto;
-  }
+}
+
+.logo {
+  width: 90%;
+  padding: 10px 0 0 10px;
+}
+
+.navigateur {
+  display: flex; 
+  flex-direction: column;
+}
+
+nav {
+  width: 100%;
+  margin: 10px 0;
+}
+
+nav a:nth-child(1),
+nav a:nth-child(2) {
+  width: 50%;
+  color: black;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid #f2f2f2;
+  text-align: center;
+  padding: 10px 0;
+}
+nav a:nth-child(3) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 30px 20px 30px;
+}
+
+nav a:nth-child(1)[data-active="true"] {
+  border-bottom-color: #0065fc;
+  color: #0065fc;
+
