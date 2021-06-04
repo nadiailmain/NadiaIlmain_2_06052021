@@ -18,23 +18,39 @@ h1 {
 }
 
 /* header */
-.logo img {
-  height: 50px;
-  width: 95px;
+ {
+ 
+
 }
 
 /* Navigateur */
-.navigateur {
+header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  margin-top: 0.5%;
 }
-
 nav {
   display: flex;
   width: 30%;
   font-size: 14px;
   justify-content: space-around;
+}
+
+#nav1 {
+  display: flex;
+  justify-content: flex-end;
+} 
+
+#nav2 {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding:0%
+} 
+
+.navigation {
+  list-style: none;
+
 }
 
 a {
@@ -509,7 +525,7 @@ footer li {
   }
 }
 /* Responsive Mobile*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   main {
     padding: 1em;
     margin: 0;
@@ -517,18 +533,36 @@ footer li {
   }
   
   .logo {
-    flex-direction: column-reverse;
-    width: 90%;
-    padding: 10px 0 0 10px;
+    margin-left: 0.5%;
+    position: absolute;
   }
-  .navigateur {
-    display: flex;
-    flex-direction: column;
+
+  header {
+  flex-direction: column;
   }
+
   nav {
-    width: 100%;
-    margin: 10px 0;
+    display: initial;
+    flex-direction: unset;
   }
+
+  ul {
+  list-style: none;
+}
+
+#nav1 {
+  display: inline-flex;
+  justify-content: space-between;
+} 
+
+#nav2 {
+  display: inline-flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: -10%;
+} 
+
+
 
  .hosting {
     width: 50%;
