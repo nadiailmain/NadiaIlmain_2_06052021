@@ -301,7 +301,7 @@ h3 {
 /* ********** Most popular********** */
 
 #block-mostpopular {
-  width: 50%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -469,8 +469,7 @@ main {
 }
   
 .logo {
-    display: inline-flex;
-    margin-left: 0.5%;     
+    display: inline-flex;     
 }
   
 li {
@@ -478,10 +477,10 @@ li {
     margin-right: 0.5%;
 }
 .signup {
-  align-items: right;
-  padding-top: 20%;
-  padding-bottom: 20%;
-  margin-right: 0.5%;
+  position: flex;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-right: -10%;
 }
 
 header {
@@ -496,11 +495,13 @@ nav {
 ul {
     list-style: none;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
+
+
 #nav1 {
-  display: inline-flex;
+  display: inline-block;
   justify-content: space-between;
 } 
 
@@ -510,6 +511,11 @@ ul {
   list-style: none;
   margin-right: -10%;
 }
+.active {
+  border-top: 3px solid #0065fc;
+  color: #0065fc;
+  padding-bottom: 20px;
+  }
 
  .hosting {
     width: 50%;
@@ -526,12 +532,7 @@ ul {
     top: 0;
     padding: 30px 20px 30px;
   }
-
-  .navlink .active {
-    border-bottom-color: #0065fc;
-    color: #0065fc;
-  }
-
+ 
   .hosting:hover,
   .activities:hover {
     border-top: 3px solid transparent;
