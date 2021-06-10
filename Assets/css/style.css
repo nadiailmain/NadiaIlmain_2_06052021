@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
 /* body */
-
 body {
   font-family: "Raleway", "sans-serif";
   margin: 0px auto;
@@ -16,10 +15,7 @@ main {
 h1 {
   margin-bottom: 0;
 }
-
-/* header */
  
-
 /* Navigateur */
 header {
   display: flex;
@@ -95,7 +91,6 @@ h1 {
   align-items: center;
   margin: 10px 0 10px 0;
 }
-
 
 .search i {
   background-color: #f2f2f2;
@@ -306,7 +301,7 @@ h3 {
 /* ********** Most popular********** */
 
 #block-mostpopular {
-  width: 45%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -467,28 +462,41 @@ footer li {
 
 /* Responsive Mobile*/
 @media screen and (max-width: 768px) {
-  main {
+main {
     padding: 1em;
     margin: 0;
     width: auto;
-  }
+}
   
-  .logo {
-    margin-left: 0.5%;
-    position: absolute;
-  }
+.logo {
+    display: inline-flex;
+    margin-left: 0.5%;     
+}
+  
+li {
+    font-size: 17px;
+    margin-right: 0.5%;
+}
+.signup {
+  align-items: right;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  margin-right: 0.5%;
+}
 
-  header {
-  flex-direction: column;
-  }
+header {
+    flex-direction: column;
+}
 
-  nav {
+nav {
     display: initial;
     flex-direction: unset;
-  }
+}
 
-  ul {
-  list-style: none;
+ul {
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #nav1 {
@@ -519,7 +527,7 @@ footer li {
     padding: 30px 20px 30px;
   }
 
-  .navlink .active{
+  .navlink .active {
     border-bottom-color: #0065fc;
     color: #0065fc;
   }
@@ -723,9 +731,6 @@ footer li {
   .footer-column {
     padding: 10px 100px 10px 10px;
   }
-
-
-
 
 /*Responsive Design: Tablette*/
 @media only screen 
