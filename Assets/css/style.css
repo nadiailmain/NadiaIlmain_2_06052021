@@ -6,7 +6,7 @@ body {
   margin: 0px auto;
   max-width: 1500px;
 }
-
+ 
 main {
   width: auto;
   padding: 0 50px 40px;
@@ -22,11 +22,13 @@ header {
   justify-content: space-between;
   margin-top: 0.5%;
 }
+
 nav {
   display: flex;
   width: 30%;
   font-size: 14px;
   justify-content: space-around;
+  text-align: center;
 }
 
 #nav1 {
@@ -43,7 +45,6 @@ nav {
 
 .navigation {
   list-style: none;
-
 }
 
 a {
@@ -73,7 +74,7 @@ nav a {
 
 .signup {
   display: flex;
-  align-items: center;
+  align-items: ;
   text-decoration: none;
   font-weight: bold;
   color: #0065fc;
@@ -461,7 +462,7 @@ footer li {
 }
 
 /* Responsive Mobile*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 main {
     padding: 1em;
     margin: 0;
@@ -469,7 +470,8 @@ main {
 }
   
 .logo {
-    display: inline-flex;     
+  display: flex;
+  margin-top: 0.5%;
 }
   
 li {
@@ -477,15 +479,12 @@ li {
     margin-right: 0.5%;
 }
 .signup {
-  align-items: flex-start;
+  display: flex;
+  flex-direction: initial;
   padding-top: 10%;
   padding-bottom: 10%;
-  margin-right: 0.5%;
 }
 
-header {
-    flex-direction: column;
-}
 
 nav {
     display: initial;
@@ -493,12 +492,11 @@ nav {
 }
 
 ul {
+    display: block;
     list-style: none;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 25px;
 }
-
-
 
 #nav1 {
   display: inline-block;
@@ -515,10 +513,11 @@ ul {
   border-top: 3px solid #0065fc;
   color: #0065fc;
   padding-bottom: 20px;
+  
   }
 
  .hosting {
-    width: 50%;
+    width: auto;
     color: black;
     border-top: 3px solid transparent;
     border-bottom: 3px solid #f2f2f2;
@@ -534,7 +533,7 @@ ul {
   }
  
   .hosting:hover,
-  .activities:hover {
+  .activities:hover{
     border-top: 3px solid transparent;
     border-bottom: 3px solid;
     color: #0065fc;
