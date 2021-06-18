@@ -550,7 +550,6 @@ ul {
   top: 0;
   padding: 30px 20px 30px;
   text-align: center;
- 
 }
 
 .submit {
@@ -679,7 +678,7 @@ ul {
   font-size: larger;
 }
 
-  #block-mostpopular {
+#block-mostpopular {
   width: 100%;
   border-radius: 0;
 }
@@ -713,7 +712,7 @@ ul {
   font-weight: 800;
 }
 
- .block-activity {
+ .activities {
   padding: 25px 20px 50px;
 }
 
@@ -754,7 +753,7 @@ ul {
 {
 
 header{
-  padding: 0 0 10px
+  padding: 10px 0 10px
  }
 main {
   width: auto;
@@ -794,7 +793,7 @@ main {
   display: flex;
   gap: 0.5em;
 }
-.image1 {
+.image{
   height: 340px;
  }
 .footer_column {
