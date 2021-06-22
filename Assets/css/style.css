@@ -364,6 +364,8 @@ h3 {
   object-fit: cover;
   background-color: #ffffff;
   height: 130px;
+  min-width: 40%;
+  max-width:100%;
 }
 .card-mostpopular p {
   height: 50px;
@@ -402,7 +404,7 @@ h3 {
 }
 
 .image1 {
-  width: 100%;
+  max-width: 100%;
   height: 390px;
   border-radius: 20px 20px 0 0;
   object-fit: cover;
@@ -480,6 +482,7 @@ main {
   margin: 0;
   width: auto;
 }
+
   
 .logo {
   display: flex;
@@ -505,6 +508,7 @@ nav {
   flex-direction: unset;
   padding-bottom: 10px;
 }
+
 ul#nav2{
   color: black;
   border-top: 3px solid transparent;
@@ -518,6 +522,11 @@ ul#nav2{
   padding-bottom: 10px;
 }
 
+a.navlink {
+  border-bottom: 3px solid #f2f2f2;
+  padding-bottom: 1em;
+}
+
 .navlink:hover{ 
   border-top: 3px solid transparent ;
   border-bottom: 3px solid #0065fc;
@@ -528,21 +537,18 @@ ul {
   display: block;
   list-style: none;
   padding-bottom: 10px;
-  padding-left: 0%;
-  padding-right: 0px;
+  padding-inline: 0px;
 }
 
 #nav2 {
   width: 100%;
   justify-content: space-between;
-  text-align: center;
   list-style: none;
 }
 
 .hosting {
   width: auto;
   color: black;
-  text-align: center;
   padding: 0 0;
 }
 
@@ -649,10 +655,6 @@ ul {
   order: 1;
 }
 
-.card-mostpopular {
-  padding: 10px;
-}
-
 .title {
   padding: 10px 0;
 }
@@ -738,6 +740,7 @@ ul {
 .image4 {
   height: 120px;
   max-width: 100%;
+  width:100%;
  }
 
 .footer {
