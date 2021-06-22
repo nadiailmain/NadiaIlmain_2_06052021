@@ -35,7 +35,6 @@ li {
 }
 .navigateur {
   width: 100%;
-
 }
 
 nav {
@@ -57,7 +56,7 @@ nav {
   height: 100%;
   padding-top: 0;
   margin-right: -2.5%;
-  justify-content: right;
+  justify-content: center;
 } 
 .navigation {
   list-style: none;
@@ -72,10 +71,6 @@ a {
 nav a {
   color: black;
   padding: 21px 25px 30px;
-  border-top: 3px solid transparent;
-}
-
-.navlink {
   border-top: 3px solid transparent;
 }
 
@@ -445,13 +440,13 @@ footer {
 
 footer {
   padding: 0 0 50px 0px;
+ 
 }
 
 .block-footer {
   display: flex;
   justify-content: flex-start;
   align-content: center;
-  align-items: baseline;
   width: 100%;
 }
 
@@ -495,13 +490,13 @@ main {
   
 li {
   font-size: 17px;
-  margin-right: 10%;
+  margin-right: -0.9%;
 }
 .signup {
   display: flex;
   padding-top: 5%;
-  padding-bottom: 10%;
-  padding-right: 0.9%;
+  padding-bottom: 20%;
+  padding-right: -0.9%;
 }
 
 nav {
@@ -510,39 +505,45 @@ nav {
   flex-direction: unset;
   padding-bottom: 10px;
 }
+ul#nav2{
+  color: black;
+  border-top: 3px solid transparent;
+  justify-content: center;
+}
 
 .active {
-  display: initial;
-  border-bottom: 3px solid #f2f2f2 ;
-  border-top: 3px;
-  padding-bottom: 3px;
+  border-bottom: 3px solid #0065fc ;
+  color: #0065fc;
+  border-top: 0px; 
+  padding-bottom: 10px;
 }
+
 .navlink:hover{ 
   border-top: 3px solid transparent ;
   border-bottom: 3px solid #0065fc;
-  color: #0065fc;
   padding-bottom: 10px;
 }
 
 ul {
   display: block;
   list-style: none;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  padding-left: 0%;
+  padding-right: 0px;
 }
 
 #nav2 {
-  display: inline-flex;
   width: 100%;
   justify-content: space-between;
+  text-align: center;
   list-style: none;
-  margin-right: -10%;
 }
 
 .hosting {
   width: auto;
   color: black;
   text-align: center;
-  padding: 10px 0;
+  padding: 0 0;
 }
 
 .activities {
@@ -550,13 +551,15 @@ ul {
   right: 0;
   top: 0;
   padding: 30px 20px 30px;
-  text-align: center;
 }
 
 .submit {
   display: none;
 }
 
+.img {
+  max-width: 100%;
+}
 .search .fa-search {
   display: inline-block;
   border-radius: 0 15px 15px 0;
@@ -734,10 +737,11 @@ ul {
 .image3,
 .image4 {
   height: 120px;
+  max-width: 100%;
  }
 
 .footer {
-  padding: 0 0 40px;
+  padding: 0 0 60px;
 }
 
 .block-footer {
@@ -757,7 +761,7 @@ header{
   padding: 0 0 10px
  }
 main {
-  width: auto;
+  max-width: auto;
   padding: 0 50px 40px;
 }
 .interheader, .filters, .block-activity {
