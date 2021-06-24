@@ -3,9 +3,9 @@
 /* body */
 body {
   font-family: "Raleway", "sans-serif";
-  margin: 0px auto; 
   max-width: 1500px;
   padding-left: 25px;
+  padding-right: 30px;
 }
  
 .logo {
@@ -25,6 +25,7 @@ header {
   justify-content: space-between;
   margin-top: 0.5%;
 }
+
 li {
   flex-wrap: nowrap;
   flex-direction: row;
@@ -59,12 +60,9 @@ nav {
   padding-top: 0;
   margin-right: -2.5%;
   justify-content: center;
-} 
-.navigation li {
   list-style: none;
-}
-
-
+} 
+ 
 nav a {
   color: black;
   padding: 21px 25px 30px;
@@ -209,7 +207,6 @@ h1 {
 .menu h2,
 .title {
   font-size: 20px;
-  margin: 0;
   padding: 40px 0 20px;
 }
 .card-hosting .details h3 {
@@ -319,7 +316,7 @@ h3 {
 .box-mostpopular {
   display: flex;
   flex-direction: column;
-  padding: 0 40px 40px;
+  padding: 0 30px 0px;
 }
 
 .gap-mostpopular {
@@ -478,7 +475,6 @@ footer li {
   padding-left: 0px;
   padding-right: 0px;
   margin-top: 10px;
-
 }
   
 .logo {
@@ -491,8 +487,7 @@ footer li {
 li {
   font-size: 17px;
   margin-right: -0.9%;
-  
-  }
+}
 
 .signup {
   display: flex;
@@ -507,38 +502,37 @@ nav {
   padding-bottom: 10px;
 }
 
-ul#nav2{
+ul#nav2 {
   color: black;
-  border-top: 3px solid transparent;
-  justify-content: space-around; 
+  border-bottom: 3px solid #f2f2f2;
+  justify-content: space-evenly;
 }
 
-.active {
+.active  {
   border-bottom: 3px solid #0065fc ;
   color: #0065fc;
   border-top: 0px; 
 }
+
 a.navlink {
-  border-bottom: 3px solid #f2f2f2;
   padding-bottom: 0.5em;
 }
-a.navlink.active {
+a.navlink.active{
   border-bottom: 3px solid #0065fc;
   color: #0065fc;
-  margin-left: 0px;
-  margin-right: 0px;
 }
 .navlink:hover{ 
-  border-top: 3px solid transparent ;
+  border-top:  transparent ;
   border-bottom: 3px solid #0065fc;
-  justify-content: space-evenly;
+  justify-items: unset;
 }
 
 ul {
   display: block;
   list-style: none;
   padding-bottom: 10px;
-  padding-inline: 0px;
+  padding-inline-end: 0px;
+  padding-inline-start: 0px;
 }
 
 #nav2 {
@@ -635,7 +629,7 @@ div.firstline {
 }
 
 .card-hosting {
-  width: 100%;
+  width: 85%;
   margin: 15px 0 0;
   box-shadow: 0px 0px 10px 3px #8080802b;
 }
@@ -657,6 +651,7 @@ div.firstline {
 
 .title {
   padding: 10px 0;
+  padding-left: 20px;
 }
 
 .gap-mostpopular {
@@ -680,7 +675,7 @@ div.firstline {
 }
 
 .show-more p a {
-  font-weight: 800;
+  padding-left: 20px;
   font-size: larger;
 }
 
@@ -702,6 +697,7 @@ div.firstline {
 .box-image {
   flex-direction: column;
   gap: 1.5em;
+  align-items: center;
 }
 
 .box-image > div {
@@ -722,8 +718,12 @@ div.firstline {
   padding: 25px 20px 50px;
 }
 
+.card-activity.card-activity1 {
+  width:85%;
+  align-items: center;
+}
+
 .activity {
-  width: 100%;
   box-shadow: 0px 0px 10px 3px #8080802b;
   border-radius: 20px;
 }
@@ -732,6 +732,7 @@ div.firstline {
 .card-activity2 {
   display: flex;
   flex-direction: column;
+  width:85%;
 }
 
 .image1,
