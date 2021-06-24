@@ -477,25 +477,26 @@ footer li {
   body {
   padding-left: 0px;
   padding-right: 0px;
+  margin-top: 10px;
 
 }
   
 .logo {
   display: flex;
   position: absolute;
-  margin-top: 0.5%;
-  padding-left: 3%;
+  margin-top: 0.6%;
+  padding-left: 5%;
 }
-  
+
 li {
   font-size: 17px;
   margin-right: -0.9%;
-}
+  }
+
 .signup {
   display: flex;
   padding-top: 5%;
   padding-bottom: 20%;
-  padding-right: -0.9%;
 }
 
 nav {
@@ -508,14 +509,14 @@ nav {
 ul#nav2{
   color: black;
   border-top: 3px solid transparent;
-
+  justify-content: space-around; 
 }
 
 .active {
   border-bottom: 3px solid #0065fc ;
   color: #0065fc;
   border-top: 0px; 
-  padding-bottom: 10px;
+  justify-content: unset;
 }
 
 a.navlink {
@@ -523,10 +524,18 @@ a.navlink {
   padding-bottom: 0.5em;
 }
 
+a.navlink.active {
+  border-bottom: 3px solid #0065fc ;
+  color: #0065fc;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .navlink:hover{ 
   border-top: 3px solid transparent ;
   border-bottom: 3px solid #0065fc;
   padding-bottom: 10px;
+  justify-content: space-evenly;
 }
 
 ul {
@@ -537,8 +546,8 @@ ul {
 }
 
 #nav2 {
+  display: flex;
   width: 100%;
-  justify-content: space-between;
   list-style: none;
 }
 
