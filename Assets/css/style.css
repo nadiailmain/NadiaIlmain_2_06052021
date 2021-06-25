@@ -488,6 +488,7 @@ footer li {
 li {
   font-size: 17px;
   margin-right: -0.9%;
+
 }
 
 .signup {
@@ -533,6 +534,12 @@ ul {
   padding-bottom: 10px;
   padding-inline-end: 0px;
   padding-inline-start: 0px;
+}
+
+.navigation{
+  flex-basis: 100%;
+  text-align: center;
+  display: flex;
 }
 
 #nav2 {
