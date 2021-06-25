@@ -3,7 +3,6 @@
 /* body */
 body {
   font-family: "Raleway", "sans-serif";
-  max-width: 1500px;
   padding-left: 25px;
   padding-right: 30px;
 }
@@ -474,8 +473,6 @@ footer li {
   padding-left: 0px;
   padding-right: 0px;
   margin-top: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
 }
   
 .logo {
@@ -488,7 +485,6 @@ footer li {
 li {
   font-size: 17px;
   margin-right: -0.9%;
-  text-align: center;
 }
 
 .signup {
@@ -667,6 +663,7 @@ div.firstline {
 
 .block-hosting_block-mostpopular {
   flex-direction: column;
+  width:100%;
 }
 
 .block_hosting {
@@ -760,8 +757,8 @@ div.firstline {
 
 /*Responsive Design: Tablette*/
 @media only screen 
-  and (min-width: 769px) 
-  and (max-width: 1257px) 
+  and (min-width: 768px) 
+  and (max-width: 1024px) 
 {
 
 header{
