@@ -784,12 +784,15 @@ header{
   flex-direction: column-reverse;
   gap: 40px;
 }
+
 #hosting, #block-mostpopular {
   width: auto;
+  order: 1;
 }
 .card-mostpopular .details, .details h3 {
   font-size: medium;
  }
+
 .menu h2 , .title {
   padding: 20px 0 20px;
 }
