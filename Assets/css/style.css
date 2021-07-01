@@ -792,10 +792,10 @@ header{
 .card-mostpopular .details, .details h3 {
   font-size: medium;
  }
-
-.menu h2 , .title {
+ .menu h2 , .title {
   padding: 20px 0 20px;
 }
+
 .show-more {
   padding: 20px 0 10px;
  }
