@@ -658,13 +658,13 @@ div.firstline {
 }
 
 .stars {
-  bottom: 0em;
+  bottom: 10%;
 }
 
 .block-hosting_block-mostpopular {
   flex-direction: column;
   width:100%;
-}
+  }
 
 .block_hosting {
   gap: 0;
@@ -789,6 +789,7 @@ header{
   width: auto;
   order: 1;
 }
+
 .card-mostpopular .details, .details h3 {
   font-size: medium;
  }
