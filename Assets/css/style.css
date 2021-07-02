@@ -374,6 +374,7 @@ h3 {
   width: auto;
   padding-top: 25px;
   padding-bottom: 35px;
+  padding: 20px; 
 }
 .box-image {
   display: flex;
