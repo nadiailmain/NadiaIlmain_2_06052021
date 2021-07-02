@@ -161,7 +161,7 @@ h1 {
   background-color: #deebff;
 }
 .button-filter a {
-  font-weight: 700px;
+  font-weight: 700;
   padding-right: 1em;
   padding-left: 1em;
 }
@@ -205,7 +205,7 @@ h1 {
 .menu h2,
 .title {
   font-size: 20px;
-  padding: 40px 0 20px;
+  padding: 20px 0 20px;
 }
 .card-hosting .details h3 {
   font-size: 0.9em;
@@ -360,7 +360,7 @@ h3 {
   max-width:100%;
 }
 .card-mostpopular p {
-  height: 50px;
+  height: fit-content;
 }
 .card {
   border-top-left-radius: 15px;
@@ -525,14 +525,15 @@ ul {
   display: block;
   list-style: none;
   padding-bottom: 10px;
-  padding-inline-end: 0px;
-  padding-inline-start: 0px;
+  -webkit-padding-start: 0px;
+  -webkit-padding-end: 0px;
 }
 
 .navigation{
+  display: flex;
   flex-basis: 100%;
   text-align: center;
-  display: flex;
+  
 }
 
 #nav2 {
@@ -793,16 +794,16 @@ header{
 .card-mostpopular .details, .details h3 {
   font-size: medium;
  }
- .menu h2 , .title {
+
+.menu h2 , .title {
   padding: 20px 0 20px;
 }
-
 .show-more {
   padding: 20px 0 10px;
  }
  #block-mostpopular, .box-image {
   display: flex;
-  gap: 0.5em;
+  justify-content: space-between;
 }
 .image{
   height: 340px;
