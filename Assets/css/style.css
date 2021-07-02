@@ -379,7 +379,7 @@ h3 {
 }
 .box-image {
   display: flex;
-  gap: 2.5em;
+  gap: 2.5em; 
 }
 
 .activity,
@@ -470,7 +470,7 @@ footer li {
 
 
 /* Responsive Mobile*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   body {
   padding-left: 0px;
   padding-right: 0px;
