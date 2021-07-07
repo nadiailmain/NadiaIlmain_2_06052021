@@ -3,8 +3,6 @@
 /* body */
 body {
   font-family: "Raleway", "sans-serif";
-  padding-left: 25px;
-  padding-right: 30px;
 }
  
 .logo {
@@ -199,7 +197,7 @@ h1 {
 /* ********hosting & most popular ********* */
 .block-hosting_block-mostpopular {
   display: inline-flex;
-  gap: 40px;
+  padding: 40px;
 }
 
 .menu h2,
@@ -442,30 +440,30 @@ footer {
 
 .block-footer {
   display: flex;
-  justify-content: flex-start;
-  align-content: center;
-  width: 100%;
+  flex-basis: 100%;
 }
 
 .footer-column {
-  padding: 10px 210px 10px 30px;
+  justify-content: space-between;
+  width: 100%;
 }
 
 footer h3 {
   font-size: 15px;
   font-weight: bold;
-  padding: 20px 0 0px 20px;
+  padding: 20px 0px 0px 60px;
 }
 
 footer ul {
   margin: 0;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 60px;
 }
 
 footer li {
   font-size: 14px;
   padding: 10px 0 0 0;
   list-style: none;
+
 }
 
 
@@ -750,7 +748,7 @@ div.hosting-content {
   flex-direction: column;
 }
 .footer-column {
-  padding: 10px 100px 10px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 /*Responsive Design: Tablette*/
@@ -822,10 +820,12 @@ header{
   box-shadow: 0px 0px 10px 3px #8080802b;
 }
 
-#hosting, #block-mostpopular {
+.block-hosting_block-mostpopular {
   width: auto;
-  order: 1;
+  display: flex;
+  flex-direction: column-reverse;
 }
+
 .card-mostpopular .details, .details h3 {
   font-size: medium;
  }
