@@ -3,6 +3,7 @@
 /* body */
 body {
   font-family: "Raleway", "sans-serif";
+  
 }
  
 .logo {
@@ -75,11 +76,13 @@ nav a {
   color: #0065fc;
 }
 
-.signup {
+.signup:hover {
+  border-top: 3px solid #0065fc;
   text-decoration: none;
   font-weight: bold;
   color: #0065fc;
 }
+
 
 h1 {
   font-size: 20px;
@@ -101,25 +104,25 @@ h1 {
   border-bottom-left-radius: 15px;
 }
 .submit {
-  padding: 12px;
+  padding: 16px;
   font-size: 14px;
   background-color: #0065fc;
   cursor: pointer;
   color: white;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  border: 2px outset;
   width: auto;
+  border: none;
 }
 
 #mysearch {
-  border: 2px solid #f2f2f2;
+  border: 3px solid #f2f2f2;
   padding: 0.86em;
   margin: 0px;
   font-weight: 600;
 }
 ::placeholder {
-  color: black;
+  color: grey;
   font-size: 16px;
 }
 .search .fa-search {
@@ -220,7 +223,6 @@ h1 {
 h3 {
   font-size: 14px;
   margin-bottom: 5px;
-  margin-top: 2px;
 }
 
 #hosting {
@@ -314,13 +316,13 @@ h3 {
 .box-mostpopular {
   display: flex;
   flex-direction: column;
-  padding: 0 30px 0px;
+
 }
 
-.gap-mostpopular {
+.mostpopular {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  padding-bottom: 30px;
   padding-top: 5px;
 }
 
@@ -444,7 +446,6 @@ footer {
 }
 
 .footer-column {
-  justify-content: space-between;
   width: 100%;
 }
 
@@ -649,8 +650,8 @@ div.hosting-content {
   padding-left: 20px;
 }
 
-.gap-mostpopular {
-  gap: 10px;
+.flex-mostpopular {
+  padding: 10px;
 }
 
 .stars {
@@ -663,7 +664,7 @@ div.hosting-content {
   }
 
 .block_hosting {
-  gap: 0;
+  padding: 0;
 }
 
 .show-more {
@@ -679,25 +680,24 @@ div.hosting-content {
   width: 100%;
   border-radius: 0;
 }
-
+/* j'ai enlevé le gap remplacé par le padding */
 .box-mostpopular {
-  gap: 0.7em;
-  padding: 20px;
+  gap: 20px;
 }
 
 .card-mostpopular .details h3 {
   font-size: 16px;
   font-weight: 800;
 }
-
+/* j'ai enlevé le gap remplacé par le padding */
 .box-image {
   flex-direction: column;
-  gap: 1.5em;
+  padding: 1.5em;
   align-items: center;
 }
-
+/* j'ai enlevé le gap remplacé par le padding */
 .box-image > div {
-  gap: 1.5em;
+  padding: 1.5em;
  }
 
 .box-image h3 {
@@ -774,11 +774,11 @@ header{
 .filterphoto > h2 {
   padding: 0 0 10px 0;
 }
-
+/* j'ai enlevé le gap remplacé par le padding */
 .block-hosting_block-mostpopular {
   display: flex;
   flex-direction: column-reverse;
-  gap: 40px;
+  padding: 40px;
 }
 
 .box-image {
@@ -812,7 +812,7 @@ header{
   display: flex;
   width: 100%;
   flex-direction: row;
-  gap:20px 30px;
+  padding:20px 30px;
 }
 
 .card-hosting {
