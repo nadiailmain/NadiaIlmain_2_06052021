@@ -3,8 +3,10 @@
 /* body */
 body {
   font-family: "Raleway", "sans-serif";
+  font-size: 100%;
+  margin:auto
 }
- 
+
 .logo {
   display: flex;
   position: absolute;
