@@ -219,7 +219,6 @@ h1 {
 /* ********hosting & most popular ********* */
 .block-hosting_block-mostpopular {
   display: inline-flex;
-  margin-top: 0%;
 }
 
 .menu h2,
@@ -655,7 +654,7 @@ div.hosting-content {
 }
 
 .menu h2 {
-  margin-top: 0;
+  margin-top: 10%;
   padding: 0 20px 10px;
   font-weight: 800;
   font-size: 23px;
@@ -671,7 +670,6 @@ div.hosting-content {
 
 .title {
   padding: 10px 0;
-  padding-left: 20px;
 }
 
 .flex-mostpopular {
@@ -706,7 +704,9 @@ div.hosting-content {
 }
 /* j'ai enlevé le gap remplacé par le padding */
 .box-mostpopular {
-  padding: 10px;
+  padding: 25px;
+  padding-bottom: 40px;
+  padding-top: 15px; 
 }
 
 .card-mostpopular .details h3 {
@@ -716,7 +716,6 @@ div.hosting-content {
 /* j'ai enlevé le gap remplacé par le padding */
 .box-image {
   flex-direction: column;
-  padding: 1em;
   align-items: center;
 }
 /* j'ai enlevé le gap remplacé par le padding */
@@ -735,24 +734,27 @@ div.hosting-content {
 }
 
  .activities {
-  padding: 25px 20px 50px;
+  padding: 25px 20px 20px;
 }
 
 .card-activity.card-activity1 {
-  width:85%;
+  width:95%;
   align-items: center;
+  margin-bottom:20px;
 }
 
 .activity {
   box-shadow: 0px 0px 10px 3px #8080802b;
   border-radius: 20px;
+  margin-bottom:20px;
 }
 
 .card-activity3,
 .card-activity2 {
   display: flex;
   flex-direction: column;
-  width:85%;
+  width:95%;
+  margin-bottom:20px;
 }
 
 .image1,
