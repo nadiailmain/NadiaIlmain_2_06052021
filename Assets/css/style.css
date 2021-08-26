@@ -1,20 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
+
+
 /* body */
 body {
+  display: block;
   font-family: "Raleway", "sans-serif";
   font-size: 100%;
-  margin:auto
+  margin: auto;
 }
 
 .logo {
   display: flex;
   position: absolute;
+  margin-left: 5%;
 }
 
 h1 {
   display: flex;
   margin-bottom: 0;
+  margin-left: 3%;
+  margin-right: auto;
 }
  
 /* Navigateur */
@@ -61,10 +67,10 @@ nav {
   list-style: none;
 } 
  
-nav a {
+nav a{
   color: black;
   padding: 21px 25px 30px;
-  border-top: 3px solid transparent;
+ 
 }
 
 .navlink:hover {
@@ -77,16 +83,22 @@ nav a {
   color: #0065fc;
 }
 
-a.signup:hover {
-  border-top: 3px solid #0065fc;
+a.signup {
+  border-top: 3px solid transparent;
   text-decoration: none;
   font-weight: bold;
   color: #0065fc;
+
 }
 
+.signup:hover {
+  border-top: 3px solid #0065fc;
+  color: #0065fc;
+}
 
 h1 {
-  font-size: 20px;
+  font-size: 20px; 
+  margin-left: 5%; 
 }
 
 
@@ -96,6 +108,7 @@ h1 {
   display: flex;
   align-items: center;
   margin: 10px 0 10px 0;
+  margin-left: 5%;
 }
 
 .search i {
@@ -105,7 +118,7 @@ h1 {
   border-bottom-left-radius: 15px;
 }
 .submit {
-  padding: 16px;
+  padding: 14px;
   font-size: 14px;
   background-color: #0065fc;
   cursor: pointer;
@@ -147,6 +160,7 @@ h1 {
 .filterphoto> h2 {
   font-size: large;
   padding: 0 1em 0 0;
+  margin-left: 5%; 
 }
 
 .button-filter {
@@ -176,8 +190,8 @@ h1 {
 .filterI {
   display: flex;
   align-items: baseline;
-  gap: 1em;
-  padding: 20px 0;
+  padding: 10px 0px;
+  
 }
 .iconeI {
   color: #0065fc;
@@ -189,6 +203,9 @@ h1 {
   border-radius: 50%;
   border: #d9d9d9 solid 1px;
   float: left;
+  margin: 5%; 
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .iconeI .fas {
@@ -198,10 +215,12 @@ h1 {
   color: #0065fc;
 }
 
+
 /* ********hosting & most popular ********* */
 .block-hosting_block-mostpopular {
   display: inline-flex;
-  padding: 40px;
+  margin: 50px;
+  margin-top: 0%;
 }
 
 .menu h2,
@@ -210,7 +229,7 @@ h1 {
   padding: 20px 0 20px;
 }
 .card-hosting .details h3 {
-  font-size: 0.9em;
+  font-size: 14px;
   font-weight: bolder;
   margin: 5px 0 5px 0;
 }
@@ -232,9 +251,10 @@ h3 {
   border-radius: 20px;
   padding: 0 40px 40px;
   background-color: #f2f2f2;
+  margin-right:5%;
 }
 
-.box-hosting card-hosting {
+.box-hosting.card-hosting {
   border-radius: 20px;
   padding: 3px;
   margin: 1em;
@@ -254,8 +274,9 @@ h3 {
 .block-hosting {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  gap: 20px;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
 }
 
 .hosting-content {
@@ -263,16 +284,17 @@ h3 {
   width: 100%;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px 20px; 
+  justify-content: space-between;
 }
 
 .card-hosting {
   background-color: white;
   width: calc(33% - 30px);
-  box-shadow: 0px 0px 10px 3px #8080802b;
+  box-shadow: 0px 10px 10px 0px #8080802b;
   border-radius: 15px;
   padding: 5px;
   flex-wrap: wrap;
+  margin-bottom: 5%;
 }
 
 .card-hosting img {
@@ -289,6 +311,7 @@ h3 {
 
 .details p {
   font-size: 14px;
+  margin-left: 3%;
 }
 
 .stars {
@@ -317,7 +340,6 @@ h3 {
 .box-mostpopular {
   display: flex;
   flex-direction: column;
-
 }
 
 .mostpopular {
@@ -344,10 +366,7 @@ h3 {
   border-radius: 20px;
   padding: 5px;
   box-shadow: 0px 0px 10px 3px #8080802b;
-}
-
-.card-mostpopular .details {
-  margin-right: 15px;
+  margin-top: 20px;
 }
 
 .stars.pop {
@@ -358,9 +377,8 @@ h3 {
   border-radius: 15px 0px 0px 15px;
   object-fit: cover;
   background-color: #ffffff;
-  height: 130px;
-  min-width: 40%;
-  max-width:100%;
+  height: 120px;
+  
 }
 .card-mostpopular p {
   height: fit-content;
@@ -380,7 +398,9 @@ h3 {
 }
 .box-image {
   display: flex;
-  gap: 2.5em; 
+  justify-content: space-between;
+  width: 100%; 
+  height: 100%;
 }
 
 .activity,
@@ -395,6 +415,8 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .card-activity img {
   object-fit: cover;
@@ -683,7 +705,7 @@ div.hosting-content {
 }
 /* j'ai enlevé le gap remplacé par le padding */
 .box-mostpopular {
-  gap: 20px;
+  padding: 10px;
 }
 
 .card-mostpopular .details h3 {
@@ -693,12 +715,12 @@ div.hosting-content {
 /* j'ai enlevé le gap remplacé par le padding */
 .box-image {
   flex-direction: column;
-  padding: 1.5em;
+  padding: 1em;
   align-items: center;
 }
 /* j'ai enlevé le gap remplacé par le padding */
 .box-image > div {
-  padding: 1.5em;
+  
  }
 
 .box-image h3 {
@@ -828,7 +850,7 @@ header{
 }
 
 .card-mostpopular .details, .details h3 {
-  font-size: medium;
+  font-size: large;
  }
 
 .menu h2 , .title {
