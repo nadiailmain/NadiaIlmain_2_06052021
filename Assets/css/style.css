@@ -7,8 +7,9 @@ body {
   display: block;
   font-family: "Raleway", "sans-serif";
   font-size: 100%;
-  margin: auto;
+  margin:0;
 }
+
 
 .logo {
   display: flex;
@@ -22,9 +23,7 @@ h1 {
   margin-left: 3%;
   margin-right: auto;
 }
-p {
-  margin-left: 5%;
-}
+
 
 /* Navigateur */
 header {
@@ -100,7 +99,7 @@ h1 {
   font-size: 20px; 
   margin-left: 5%; 
 }
-
+ 
 
 /* *******search******* */
 
@@ -219,6 +218,7 @@ h1 {
 /* ********hosting & most popular ********* */
 .block-hosting_block-mostpopular {
   display: inline-flex;
+  margin:0;
 }
 
 .menu h2,
@@ -249,7 +249,7 @@ h3 {
   border-radius: 20px;
   padding: 0 40px 40px;
   background-color: #f2f2f2;
-  margin-right:5%;
+  margin:5%;
 }
 
 .box-hosting.card-hosting {
@@ -288,11 +288,11 @@ h3 {
 .card-hosting {
   background-color: white;
   width: calc(33% - 30px);
-  box-shadow: 0px 10px 10px 0px #8080802b;
+  box-shadow: 0px 0px 20px rgb(180, 177, 177);
   border-radius: 15px;
   padding: 5px;
   flex-wrap: wrap;
-  margin-bottom: 5%;
+  
 }
 
 .card-hosting img {
@@ -334,6 +334,8 @@ h3 {
   flex-wrap: nowrap;
   background-color: #f2f2f2;
   border-radius: 20px;
+  margin:5%;
+  margin-left:0;
 }
 .box-mostpopular {
   display: flex;
@@ -363,7 +365,7 @@ h3 {
   background-color: #ffffff;
   border-radius: 20px;
   padding: 5px;
-  box-shadow: 0px 0px 10px 3px #8080802b;
+  box-shadow: 0px 0px 20px rgb(180, 177, 177);;
   margin-top: 20px;
 }
 
@@ -404,7 +406,7 @@ h3 {
 .activity,
 .card-activity {
   background-color: white;
-  box-shadow: 0px 0px 10px 3px #8080802b;
+  box-shadow: 0px 0px 20px rgb(180, 177, 177);
   border-radius: 20px;
 }
 
@@ -477,7 +479,7 @@ footer h3 {
 }
 
 footer ul {
-  margin: 0;
+  margin-left: 3%;
   padding: 0 0 0 60px;
 }
 
@@ -744,7 +746,7 @@ div.hosting-content {
 }
 
 .activity {
-  box-shadow: 0px 0px 10px 3px #8080802b;
+  box-shadow: 0px 0px 20px rgb(180, 177, 177);
   border-radius: 20px;
   margin-bottom:20px;
 }
@@ -843,7 +845,7 @@ header{
 
 .card-hosting {
   width: calc(50% - 30px); 
-  box-shadow: 0px 0px 10px 3px #8080802b;
+  box-shadow: 0px 0px 20px rgb(180, 177, 177);
 }
 
 .block-hosting_block-mostpopular {
@@ -867,7 +869,7 @@ header{
   justify-content: space-between;
 }
  .activity {
-   box-shadow: 0px 0px 10px 3px #8080802b;
+   box-shadow: 0px 0px 20px rgb(180, 177, 177);
    border-radius: 20px;
    height: 50%;
  }
