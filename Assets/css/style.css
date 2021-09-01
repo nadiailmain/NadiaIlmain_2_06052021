@@ -195,8 +195,7 @@ a.signup {
 
 /* ********hosting & most popular ********* */
 .block-hosting_block-mostpopular {
-  display: flex;
-  justify-content: space-between;
+ display: flex;
 }
 
 .menu h2,
@@ -227,6 +226,7 @@ h3 {
   border-radius: 20px;
   padding: 0 40px 40px;
   background-color: #f2f2f2;
+  width:880px; 
 }
 
 .box-hosting.card-hosting {
@@ -284,7 +284,6 @@ h3 {
 
 .details p {
   font-size: 14px;
-
 }
 
 .stars {
@@ -308,7 +307,7 @@ h3 {
   background-color: #f2f2f2;
   border-radius: 20px;
 }
-.mostpopular {
+.gap-mostpopular {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -317,6 +316,7 @@ h3 {
   width:100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .box-mostpopular-title {
@@ -329,7 +329,6 @@ h3 {
 .card-mostpopular {
   width: 80%;
   display: flex;
-  align-items: center;
   background-color: #ffffff;
   border-radius: 20px;
   padding: 5px;
@@ -341,11 +340,14 @@ h3 {
   position: absolute;
 }
 #block-mostpopular img {
+  display: flex;
+  align-items: center;
   width: 40%;
   border-radius: 15px 0px 0px 15px;
   object-fit: cover;
   background-color: #ffffff;
   height: 120px;
+  
 }
 
 .card-mostpopular p {
@@ -358,84 +360,109 @@ h3 {
 
 /* **********Activities********** */
 
-#activities {
-  width: auto;
-  padding-top: 25px;
-  padding-bottom: 35px;
-  padding: 20px; 
-  margin-left:5%
+.activities{
+  margin-bottom: 60px;
 }
-.box-image {
+.bloc_activity{
   display: flex;
   justify-content: space-between;
-  width: 100%; 
+  height: 440px;
+}
+.bloc_activity a{
+  color: black;
+  text-decoration: none;
+}
+.bloc_activity img{
+  object-fit: cover;
+  width: 100%;
   height: 100%;
 }
-
-.activity,
-.card-activity {
+.activity_card{
+  position: relative;
+  width: 100%;
+}
+.activity_text{
+  position: absolute;
+  bottom: 0;
+  left: 0;
   background-color: white;
+  width: 100%;
+}
+.bloc_mono_activity{
+  background-color: white;
+  height: 100%;
+  width: 100%;
   box-shadow: 0px 0px 20px rgb(180, 177, 177);
   border-radius: 20px;
+  overflow: hidden;
+  margin-right: 45px;
 }
-
-.card-activity2,
-.card-activity3 {
+.bloc_mono_activity a{
+  display : block;
+  height : 100%;
+}
+.bloc_dual_activity{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-.card-activity img {
-  object-fit: cover;
-}
-
-.image1 {
-  max-width: 100%;
-  height: 390px;
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
-}
-.image2 {
+  height: 100%;
   width: 100%;
-  height: 180px;
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
+  margin-right: 45px;
 }
-.image3 {
+.pomegues{
+  height: 235px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgb(180, 177, 177);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.frioul{
+  height: 165px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgb(180, 177, 177);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.bloc2_dual_activity{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
   width: 100%;
-  height: 140px;
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
 }
-.image4 {
-  width: 100%;
-  height: 110px;
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
+.damegarde{
+  height: 195px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgb(180, 177, 177);
+  border-radius: 20px;
+  overflow: hidden;
 }
-.activity h3,
-.card-activity h3 {
-  margin: 15px;
+.longchamp{
+  height: 210px;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgb(180, 177, 177);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.activity_text h4{
+  padding: 15px;
 }
 /* ****Footer**** */
 
 footer {
   background-color: #f2f2f2;
-  width: 100%;
   height: 100%;
-  margin: 0px;
-  
+  padding: 0 0 50px 0px;
+  margin: 10px;
+  margin-left: -6%;
+  margin-right: -6%;
 }
 
-footer {
-  padding: 0 0 50px 0px;
-}
 
 .block-footer {
   display: flex;
   flex-basis: 100%;
+  margin-right: -5%;
 }
 
 .footer-column {
@@ -449,7 +476,6 @@ footer h3 {
 }
 
 footer ul {
-  margin-left: 3%;
   padding: 0 0 0 60px;
 }
 
@@ -674,7 +700,7 @@ div.hosting-content {
   width: 100%;
   border-radius: 0;
 }
-/* j'ai enlevé le gap remplacé par le padding */
+
 .box-mostpopular {
   padding: 25px;
   padding-bottom: 40px;
@@ -685,12 +711,12 @@ div.hosting-content {
   font-size: 16px;
   font-weight: 800;
 }
-/* j'ai enlevé le gap remplacé par le padding */
+
 .box-image {
   flex-direction: column;
   align-items: center;
 }
-/* j'ai enlevé le gap remplacé par le padding */
+
 .box-image > div {
   padding:0;
  }
@@ -772,7 +798,7 @@ header{
 .filterphoto > h2 {
   padding: 0 0 10px 0;
 }
-/* j'ai enlevé le gap remplacé par le padding */
+
 .block-hosting_block-mostpopular {
   display: flex;
   flex-direction: column-reverse;
