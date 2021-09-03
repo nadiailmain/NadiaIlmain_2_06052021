@@ -19,9 +19,6 @@ h1 {
 }
 
 /* Navigateur */
-header {
-  margin-top: 0;
-}
 
 li {
   flex-wrap: nowrap;
@@ -134,11 +131,8 @@ a.signup {
   align-items: baseline;
   margin-top: 20px;
 }
-
 .filter-container {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
 }
 
 .filterphoto> h2 {
@@ -154,6 +148,7 @@ a.signup {
   border: 2px solid #f2f2f2;
   border-radius: 30px;
   height: 2.5em;
+  font-weight:bold; 
 }
 .filter-container :hover {
   color: #0065fc;
@@ -161,8 +156,10 @@ a.signup {
 }
 .button-filter a {
   font-weight: 700;
-  padding-right: 1em;
+  padding-right: 20%;
 }
+
+
 .filterphoto i {
   background-color: #deebff;
   padding: 0.8em;
