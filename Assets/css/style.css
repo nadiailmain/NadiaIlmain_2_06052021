@@ -46,13 +46,12 @@ nav {
   display: flex;
   justify-content: flex-end;
   list-style: none;
+  padding-left: 0; 
  } 
 
 #nav2 {
   display: flex;
   height: auto;
-  padding-top: 0;
-  margin-right: -2.5%;
   justify-content: center;
   list-style: none;
 } 
@@ -99,7 +98,7 @@ a.signup {
   border-bottom-left-radius: 15px;
 }
 .submit {
-  padding: 14px;
+  padding: 12px;
   font-size: 14px;
   background-color: #0065fc;
   cursor: pointer;
@@ -108,10 +107,11 @@ a.signup {
   border-bottom-right-radius: 15px;
   width: auto;
   border: none;
+  font-weight:bold;
 }
 
 #mysearch {
-  border: 3px solid #f2f2f2;
+  border: 1px solid #f2f2f2;
   padding: 0.86em;
   margin: 0px;
   font-weight: 600;
@@ -152,10 +152,9 @@ a.signup {
 
 
 .filter-container :hover {
-  color: #0065fc;
   background-color: #deebff;
   text-decoration: none;
-  color: black;
+  
 }
 .button-filter a {
   font-weight: 700;
@@ -268,7 +267,7 @@ h3 {
   box-shadow: 0px 0px 20px rgb(180, 177, 177);
   border-radius: 15px;
   padding: 5px;
-  margin:1%;
+  margin: 1%;
 }
 
 .card-hosting img {
@@ -281,6 +280,7 @@ h3 {
 .details {
   margin-left: 10px;
   position: relative;
+  width: 60%; 
 }
 
 .details p {
@@ -349,7 +349,6 @@ h3 {
   object-fit: cover;
   background-color: #ffffff;
   height: 120px;
-  
 }
 
 .card-mostpopular p {
@@ -368,7 +367,6 @@ h3 {
 .bloc_activity{
   display: flex;
   justify-content: space-between;
-  height: 440px;
 }
 .bloc_activity a{
   color: black;
@@ -392,7 +390,6 @@ h3 {
 }
 .bloc_mono_activity{
   background-color: white;
-  height: 100%;
   width: 100%;
   box-shadow: 0px 0px 20px rgb(180, 177, 177);
   border-radius: 20px;
@@ -407,7 +404,6 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
   width: 100%;
   margin-right: 45px;
 }
@@ -571,12 +567,6 @@ ul {
   padding: 0 0;
 }
 
-.activities {
-  position: absolute;
-  right: 0;
-  top: 0;
-  padding: 30px 20px 30px;
-}
 
 .submit {
   display: none;
@@ -635,7 +625,6 @@ ul {
 
  #hosting {
   width: 100%;
-  order: 2;
   background-color: unset;
   padding: 0;
 }
@@ -681,7 +670,7 @@ div.hosting-content {
 }
 
 .block-hosting_block-mostpopular {
-  flex-direction: column;
+  flex-direction: column-reverse;
   width:100%;
   }
 
@@ -719,10 +708,6 @@ div.hosting-content {
   align-items: center;
 }
 
-.box-image > div {
-  padding:0;
- }
-
 .box-image h3 {
   margin-left: 1em;
 }
@@ -744,7 +729,6 @@ div.hosting-content {
 }
 
 .activities{
-  box-shadow: 0px 0px 20px rgb(180, 177, 177);
   border-radius: 20px;
   margin-bottom:20px;
 }
