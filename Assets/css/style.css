@@ -141,24 +141,23 @@ a.signup {
 }
 
 .button-filter {
-  display: flex;
-  align-items: center;
-  margin: 0.5em;
+  margin: 0 20px 0 20px;
   margin-bottom: 0.5em;
   border: 2px solid #f2f2f2;
   border-radius: 30px;
   height: 2.5em;
   font-weight:bold; 
+  padding: 0 10px 0 0; 
 }
+
 .filter-container :hover {
   color: #0065fc;
   background-color: #deebff;
 }
 .button-filter a {
   font-weight: 700;
-  padding-right: 20%;
+  padding-right: 40%
 }
-
 
 .filterphoto i {
   background-color: #deebff;
