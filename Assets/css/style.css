@@ -379,6 +379,7 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
+
 .bloc_activity a{
   color: black;
   text-decoration: none;
@@ -392,10 +393,7 @@ h3 {
   position: relative;
   width: 100%;
 }
-.activity_card:hover{
-transform: scale(1.05);
-transition: 1s;
-}
+
 
 .activity_text{
   position: absolute;
@@ -412,6 +410,11 @@ transition: 1s;
   overflow: hidden;
   margin-right: 45px;
 }
+.bloc_mono_activity:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+
 .bloc_mono_activity a{
   display : block;
   height : 100%;
@@ -423,20 +426,31 @@ transition: 1s;
   width: 100%;
   margin-right: 45px;
 }
+
+.activity_card.pomegues:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.activity_card.frioul:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
 .pomegues{
-  height: 200px;
+  height: 235px;
   background-color: white;
   box-shadow: 0px 0px 20px rgb(180, 177, 177);
   border-radius: 20px;
   overflow: hidden;
 }
 .frioul{
-  height: 160px;
+  height: 180px;
   background-color: white;
   box-shadow: 0px 0px 20px rgb(180, 177, 177);
   border-radius: 20px;
   overflow: hidden;
 }
+
 .bloc2_dual_activity{
   display: flex;
   flex-direction: column;
@@ -444,6 +458,17 @@ transition: 1s;
   height: 100%;
   width: 100%;
 }
+
+.activity_card.damegarde:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.activity_card.longchamp:hover{
+  transform: scale(1.05);
+  transition: 1s;
+}
+
 .damegarde{
   height: 185px;
   background-color: white;
@@ -456,6 +481,7 @@ transition: 1s;
   box-shadow: 0px 0px 20px rgb(180, 177, 177);
   border-radius: 20px;
   overflow: hidden;
+  margin-top:20%; 
 }
 .activity_text h3{
   padding: 9px;
