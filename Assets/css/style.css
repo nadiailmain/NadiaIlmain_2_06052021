@@ -286,6 +286,7 @@ h3 {
 .details {
   margin-left: 10px;
   position: relative;
+  width: 60%; 
 }
 
 .details p {
@@ -365,10 +366,7 @@ h3 {
 .card-mostpopular p {
   height: fit-content;
 }
-.card {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 0px;
-}
+
 
 /* **********Activities********** */
 
@@ -638,15 +636,7 @@ ul {
   padding: 0 15px;
 }
 
-.filters {
-  padding: 0 15px;
-}
 
-.filterphoto {
-  display: flex;
-  align-items: baseline;
-  flex-direction: column;
-}
 
 .filterphoto > h2 {
   padding: 0 0 10px 0;
@@ -659,7 +649,9 @@ ul {
 }
 
 .button-filter a {
+  font-size: 12px;
   font-weight: 700;
+  max-width: 100%;
 }
 
 .iconeI{
@@ -697,10 +689,6 @@ div.hosting-content {
   padding: 0 20px;
 }
 
-#activities {
-  order: 0;
-}
-
 .title {
   padding: 10px 0;
 }
@@ -715,7 +703,6 @@ div.hosting-content {
 
 .block-hosting_block-mostpopular {
   flex-direction: column-reverse;
-  width:100%;
   }
 
 .block_hosting {
@@ -731,17 +718,17 @@ div.hosting-content {
   font-size: larger;
 }
 
-#block-mostpopular {
-  width: 100%;
-  border-radius: 0;
-}
-
 .box-mostpopular {
-  padding: 25px;
   padding-bottom: 40px;
   padding-top: 15px; 
 }
 
+
+.mostpopular {
+ max-width: 768px;
+ margin-left: 0;
+
+}
 .card-mostpopular .details h3 {
   font-size: 16px;
   font-weight: 800;
@@ -752,37 +739,36 @@ div.hosting-content {
   align-items: center;
 }
 
-.box-image h3 {
-  margin-left: 1em;
-}
+
 
 #activities.title {
   font-size: 23px;
-  padding: 0 0 20px;
+  padding: 10px 0 20px;
   font-weight: 800;
+  text-align: center;
 }
 
  .activities {
-  padding: 25px 20px 20px;
-}
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px 20px;
 
-.activity-card {
-  width:95%;
-  align-items: center;
-  margin-bottom:20px;
-}
-
-.activities{
-  border-radius: 20px;
-  margin-bottom:20px;
 }
 
 .bloc_activity {
-  display: flex;
-  flex-direction: column;
-  width:95%;
-  margin-bottom:20px;
+ display: flex;
+ flex-direction: column;
+ margin: auto;  
 }
+
+#activity_card {
+ max-width: 210x; 
+ width: 100%;
+ margin: auto; 
+}
+  
+
+
 
 
 .footer {
