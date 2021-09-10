@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
 /*----- OPTION -----*/
 
 /*- Permet de ralentir le scroll d'une page lors de l'utilisation
@@ -714,9 +715,8 @@ footer li {
     width: auto;
     margin-left: 0;
   }
-
   #block-mostpopular {
-    margin:0; 
+    margin: 0;
   }
   #block-mostpopular img {
     display: flex;
