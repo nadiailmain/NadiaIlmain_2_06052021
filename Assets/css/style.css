@@ -239,7 +239,7 @@ h3 {
   border-radius: 20px;
   padding: 0 40px 40px;
   background-color: #f2f2f2;
-  width: 60%;
+  width: 70%;
 }
 
 .box-hosting.card-hosting {
@@ -278,7 +278,7 @@ h3 {
 
 .card-hosting {
   background-color: white;
-  width: 30%;
+  width: 28%;
   box-shadow: 0px 0px 20px rgb(180, 177, 177);
   border-radius: 15px;
   padding: 4px;
@@ -328,6 +328,7 @@ h3 {
   background-color: #f2f2f2;
   border-radius: 20px;
   margin-left: 5%;
+  width: 30%; 
 }
 
 .mostpopular {
@@ -557,7 +558,7 @@ footer li {
 
 /*petite résolution tablette et petits ecrans*/
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 480px) {
   body {
     padding: 0;
     margin: 0;
@@ -740,8 +741,9 @@ footer li {
   .details {
     width: 100%;
   }
-  .activities h2 {
-    padding: 20px 0 10px 0;
+  #activities h2 {
+    margin-left: 5%; 
+
   }
   #activities.title {
     font-size: 23px;
@@ -762,7 +764,8 @@ footer li {
     padding: 10px 10px 10px 10px;
   }
   /*Responsive Design: Tablette*/
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @media screen  and (max-width: 1024px) {
+
     body {
       margin: 0px;
     }
@@ -786,7 +789,6 @@ footer li {
       flex-wrap: wrap;
     }
     .block-hosting_block-mostpopular {
-      display: flex;
       flex-direction: column-reverse;
       padding: 40px;
       width: auto;
