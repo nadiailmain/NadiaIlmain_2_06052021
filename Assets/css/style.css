@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
-
 /*----- OPTION -----*/
 
 /*- Permet de ralentir le scroll d'une page lors de l'utilisation
@@ -154,7 +153,7 @@ a.signup {
 }
 
 .button-filter {
-  margin: 0 20px 0 20px;
+  margin: 0 20px 0 10px;
   margin-bottom: 0.5em;
   border: 2px solid #f2f2f2;
   border-radius: 30px;
@@ -213,8 +212,8 @@ a.signup {
 }
 
 .menu h2, .title {
-  font-size: 20px;
-  padding: 20px 0 20px;
+  font-size: 23px;
+  padding: 10px;
 }
 
 .card-hosting .details h3 {
@@ -283,7 +282,7 @@ h3 {
   box-shadow: 0px 0px 20px rgb(180, 177, 177);
   border-radius: 15px;
   padding: 4px;
-  margin: 1%;
+  margin: 2%;
 }
 
 .card-hosting:hover {
@@ -329,7 +328,7 @@ h3 {
   background-color: #f2f2f2;
   border-radius: 20px;
   margin-left: 5%;
-  width: 30%; 
+  width: 30%;
 }
 
 .mostpopular {
@@ -364,7 +363,6 @@ h3 {
   border-radius: 20px;
   padding: 5px;
   box-shadow: 0px 0px 20px rgb(180, 177, 177);
-  ;
   margin-top: 20px;
 }
 
@@ -560,11 +558,6 @@ footer li {
 /*petite résolution tablette et petits ecrans*/
 
 @media screen and (max-width: 480px) {
-  body {
-    padding: 0;
-    margin: 0;
-    width: auto;
-  }
   .logo {
     display: flex;
     position: absolute;
@@ -577,7 +570,6 @@ footer li {
   }
   .signup {
     display: flex;
-    padding-top: 5%;
     padding-bottom: 20%;
   }
   a.signup:hover {
@@ -643,12 +635,14 @@ footer li {
   .insideheader {
     padding: 0 15px;
   }
+  .filterphoto {
+    flex-direction: column;
+  }
   .filterphoto>h2 {
     padding: 0 0 10px 0;
     margin-left: 3%;
   }
   .filter-container {
-    display: flex;
     flex-wrap: wrap;
     align-items: baseline;
   }
@@ -657,26 +651,17 @@ footer li {
     font-weight: 700;
     max-width: 100%;
   }
-  .button-filter {
-    flex-wrap: wrap;
-  }
   .iconeI {
     width: 30px;
     height: 26px;
+    margin-right: 10px;
   }
-  #hosting {
+  .hosting {
     width: 100%;
     padding: 0 0;
     background-color: white;
   }
-  div.hosting-content {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-  }
   .card-hosting {
-    width: 85%;
     margin: 15px 0 0;
     box-shadow: 0px 0px 10px 3px #8080802b;
   }
@@ -689,19 +674,15 @@ footer li {
   .box_hosting {
     padding: 0 20px;
   }
-  .title {
-    padding: 10px 0;
-  }
   .flex-mostpopular {
     padding: 10px;
   }
   .stars {
     bottom: 10%;
   }
-  .block-hosting_block-mostpopular {
+  #block-hosting_block-mostpopular {
     flex-direction: column-reverse;
-    max-width: 768px;
-    width: auto;
+    max-width: 100%;
   }
   .show-more {
     padding-top: 30px;
@@ -711,13 +692,13 @@ footer li {
     font-size: larger;
   }
   .block-mostpopular {
-    display: flex;
     flex-direction: row;
     width: auto;
     margin-left: 0;
   }
   #block-mostpopular {
     margin: 0;
+    width: 100%;
   }
   #block-mostpopular img {
     display: flex;
@@ -730,6 +711,10 @@ footer li {
     padding-bottom: 40px;
     padding-top: 15px;
   }
+
+  .mostpopular {
+    align-items: center;
+  }
   .card-mostpopular .details h3 {
     font-size: 14px;
     font-weight: 800;
@@ -738,12 +723,9 @@ footer li {
     flex-direction: column;
     align-items: center;
   }
-  .details {
-    width: 100%;
-  }
   #activities h2 {
-    margin-left: 5%; 
-
+    margin-left: 5%;
+    margin-top: 10%;
   }
   #activities.title {
     font-size: 23px;
@@ -753,6 +735,7 @@ footer li {
     display: flex;
     flex-direction: column;
     margin: 8%;
+    width: 80%;
   }
   .footer {
     padding: 0 0 60px;
@@ -764,10 +747,10 @@ footer li {
     padding: 10px 10px 10px 10px;
   }
   /*Responsive Design: Tablette*/
-  @media screen  and (max-width: 1024px) {
-
+  @media screen and (max-width: 1024px) {
     body {
-      margin: 0px;
+      margin: 0;
+      padding: 0;
     }
     header {
       padding: 0 0 10px
@@ -778,15 +761,14 @@ footer li {
     .title-filters {
       padding: 0 0 20px;
     }
-    .filterphoto {
-      display: flex;
-      flex-direction: row;
-    }
     .filterphoto>h2 {
       padding: 0 0 10px 0;
     }
     .button-filter {
       flex-wrap: wrap;
+    }
+    .filterI {
+      padding-left: 10px;
     }
     .block-hosting_block-mostpopular {
       flex-direction: column-reverse;
@@ -799,7 +781,6 @@ footer li {
       align-items: initial;
     }
     .bloc_mono_activity {
-      width: calc( 50% - 30px);
       align-items: center;
     }
     .bloc2_dual_activity .bloc_dual_activity {
@@ -808,18 +789,13 @@ footer li {
     .hosting-content {
       display: flex;
       width: 100%;
-      flex-direction: row;
       padding: 20px 30px;
     }
     .card-hosting {
-      width: 235px;
-      box-shadow: 0px 0px 20px rgb(180, 177, 177);
+      width: 100%;
     }
     .card-mostpopular .details, .details h3 {
       font-size: 14px;
-    }
-    .menu h2, .title {
-      padding: 20px 0 20px;
     }
     .show-more {
       padding: 20px 0 10px;
