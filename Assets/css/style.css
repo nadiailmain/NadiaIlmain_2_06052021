@@ -207,8 +207,9 @@ a.signup {
 
 /* ********hosting & most popular ********* */
 
-.block-hosting_block-mostpopular {
+#block-hosting_block-mostpopular {
   display: flex;
+  flex-direction: row;
 }
 
 .menu h2, .title {
@@ -233,7 +234,7 @@ h3 {
   margin-bottom: 5px;
 }
 
-#hosting {
+.hosting {
   display: flex;
   flex-direction: column;
   border-radius: 20px;
@@ -712,7 +713,6 @@ footer li {
   .block-mostpopular {
     display: flex;
     flex-direction: row;
-    order: 2;
     width: auto;
     margin-left: 0;
   }
