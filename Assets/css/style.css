@@ -145,6 +145,7 @@ a.signup {
 
 .filter-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .filterphoto>h2 {
@@ -300,6 +301,7 @@ h3 {
 .details {
   margin-left: 10px;
   position: relative;
+  flex-basis: 60%;
 }
 
 .details p {
@@ -480,7 +482,7 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
-  width: 100%;
+  width: 90%;
 }
 
 .activity_card.damegarde:hover {
@@ -558,6 +560,7 @@ footer li {
 /*petite résolution tablette et petits ecrans*/
 
 @media screen and (max-width: 480px) {
+
   .logo {
     display: flex;
     position: absolute;
@@ -649,7 +652,7 @@ footer li {
   .button-filter a {
     font-size: 12px;
     font-weight: 700;
-    max-width: 100%;
+    width: 100%;
   }
   .iconeI {
     width: 30px;
@@ -723,6 +726,9 @@ footer li {
     flex-direction: column;
     align-items: center;
   }
+  .activities {
+    margin: 0px 20px 0px 20px; 
+  }
   #activities h2 {
     margin-left: 5%;
     margin-top: 10%;
@@ -732,10 +738,17 @@ footer li {
     font-weight: 800;
   }
   .bloc_activity {
-    display: flex;
-    flex-direction: column;
-    margin: 8%;
-    width: 80%;
+    flex-wrap: wrap;
+    margin-left: 40px;
+  }
+  .activity_card {
+    margin-bottom: 20px;
+  }
+ 
+  .bloc_mono_activity {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 190px; 
   }
   .footer {
     padding: 0 0 60px;
@@ -750,7 +763,6 @@ footer li {
   @media screen and (max-width: 1024px) {
     body {
       margin: 0;
-      padding: 0;
     }
     header {
       padding: 0 0 10px
@@ -766,6 +778,7 @@ footer li {
     }
     .button-filter {
       flex-wrap: wrap;
+      align-items: flex-start;
     }
     .filterI {
       padding-left: 10px;
@@ -780,14 +793,18 @@ footer li {
       flex-direction: initial;
       align-items: initial;
     }
+    
     .hosting-content {
       display: flex;
+      flex-direction: row;
       width: 100%;
       padding: 20px 30px;
     }
     .card-hosting {
       width: 100%;
     }
+
+    
     .card-mostpopular .details, .details h3 {
       font-size: 14px;
     }
@@ -801,18 +818,25 @@ footer li {
     .activities {
       box-shadow: 0px 0px 20px rgb(180, 177, 177);
       border-radius: 20px;
-      height: 50%;
+    }
+    #bloc_activity {
+      height: 100%;
+      flex-wrap: wrap;
     }
     .bloc_mono_activity {
-      align-items: center;
+      margin-bottom: 20px;
+      width: 100%;
+      height: 190px;
+    }
+    .bloc_dual_activity {
+      order: 0; 
+      width: 100%; 
     }
     .bloc2_dual_activity .bloc_dual_activity {
-      width: calc( 50% - 30px);
+      margin-bottom: 20px;
+      height: 100%;
     }
-    .image {
-      height: 340px;
-    }
-    .footer_column {
-      padding: 10px 100px 10px 30px;
-    }
+  }
+  .footer_column {
+    padding: 10px 100px 10px 30px;
   }
