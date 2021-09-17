@@ -314,8 +314,7 @@ h3 {
 
 .show-more {
   padding: 40px 0 0;
-  font-weight: 800;
-}
+  }
 
 .show-more p {
   margin: 0;
@@ -359,7 +358,7 @@ h3 {
 }
 
 .card-mostpopular {
-  width: 80%;
+  width: 90%;
   display: flex;
   background-color: #ffffff;
   border-radius: 20px;
@@ -796,14 +795,12 @@ footer li {
     
     .hosting-content {
       display: flex;
-      flex-direction: row;
       width: 100%;
       padding: 20px 30px;
     }
     .card-hosting {
       width: 100%;
     }
-
     
     .card-mostpopular .details, .details h3 {
       font-size: 14px;
