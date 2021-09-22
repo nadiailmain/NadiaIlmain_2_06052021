@@ -584,6 +584,10 @@ footer li {
   #block-hosting_block-mostpopular {
     flex-direction: column-reverse;
   }
+  .block-hosting_block-mostpopular {
+    width: 100%;
+
+  }
   .box-image {
     flex-wrap: wrap;
     flex-direction: initial;
@@ -591,6 +595,8 @@ footer li {
   }
   .hosting {
     width: 100%;
+    background-color: white;
+    margin-top: 30px;
   }
   .hosting-content {
     display: flex;
@@ -600,16 +606,29 @@ footer li {
   .card-hosting {
     width: 100%;
   }
-  .card-mostpopular .details, .details h3 {
+  .card-mostpopular  .details h3 {
     font-size: 14px;
   }
   .show-more {
     padding: 20px 0 10px;
   }
-  #block-mostpopular, .box-image {
-    display: flex;
+
+ #block-mostpopular {
+   flex-direction: row;
+ }
+  .box-mostpopular {
+    width: 100%;
+  }
+  .mostpopular {
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
     justify-content: space-between;
   }
+  .card-mostpopular {
+    width: 100%;
+  }
+ 
   .activities {
     box-shadow: 0px 0px 20px rgb(180, 177, 177);
     border-radius: 20px;
@@ -643,9 +662,13 @@ footer li {
   }
 }
 
-/*petite résolution tablette et petits ecrans*/
+/*petite résolution mobile et petits ecrans*/
 
 @media screen and (max-width: 480px) {
+  body {
+    margin-left: 0;
+    margin-right: 0;
+  }
   .logo {
     display: flex;
     position: absolute;
