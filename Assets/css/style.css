@@ -558,12 +558,9 @@ footer li {
 /*Responsive Design: Tablette*/
 
 @media screen and (max-width: 1024px) {
-  body {
-    margin: 0;
-    padding: 0;
-  }
   header {
-    padding: 0 0 10px
+    padding: 0 0 10px;
+    margin-left: 2%;
   }
   .insideheader, .filters, .block-activity {
     padding: 0 20px 0px;
@@ -586,7 +583,6 @@ footer li {
   }
   .block-hosting_block-mostpopular {
     width: 100%;
-
   }
   .box-image {
     flex-wrap: wrap;
@@ -594,9 +590,11 @@ footer li {
     align-items: initial;
   }
   .hosting {
-    width: 100%;
-    background-color: white;
+    width: auto;
     margin-top: 30px;
+  }
+  .menu {
+    text-align: 10px;
   }
   .hosting-content {
     display: flex;
@@ -606,29 +604,37 @@ footer li {
   .card-hosting {
     width: 100%;
   }
-  .card-mostpopular  .details h3 {
+  .card-mostpopular .details h3 {
     font-size: 14px;
   }
   .show-more {
     padding: 20px 0 10px;
   }
-
- #block-mostpopular {
-   flex-direction: row;
- }
+  #block-mostpopular {
+    flex-direction: row;
+    margin-left: -2%;
+  }
   .box-mostpopular {
     width: 100%;
+    height: 380px;
   }
   .mostpopular {
     flex-direction: row;
-    width: 100%;
-    height: 100%;
-    justify-content: space-between;
+    height: 250px;
+    align-items: stretch;
+    width: 95%;
+    margin-top: 30px;
   }
   .card-mostpopular {
+    flex-direction: column;
+    height: auto;
     width: 100%;
+    margin: 0 5px;
   }
- 
+  #block-mostpopular img {
+    width: auto;
+    border-radius: 15px 15px 0 0;
+  }
   .activities {
     box-shadow: 0px 0px 20px rgb(180, 177, 177);
     border-radius: 20px;
@@ -667,7 +673,7 @@ footer li {
 @media screen and (max-width: 480px) {
   body {
     margin-left: 0;
-    margin-right: 0;
+    margin-right: -3%;
   }
   .logo {
     display: flex;
@@ -771,6 +777,8 @@ footer li {
     width: 100%;
     padding: 0 0;
     background-color: white;
+    height: auto;
+    margin-top: 10px; 
   }
   .card-hosting {
     margin: 15px 0 0;
@@ -820,17 +828,25 @@ footer li {
     border-radius: 15px 0px 0px 15px;
     object-fit: cover;
     background-color: #ffffff;
+    width: 40%; 
   }
   .box-mostpopular {
-    padding-bottom: 40px;
+    padding-bottom: 210px;
     padding-top: 15px;
   }
   .mostpopular {
     width: 90%;
+    flex-direction: column;
+    margin-top: 20px; 
   }
   .card-mostpopular .details h3 {
     font-size: 14px;
     font-weight: 800;
+  }
+
+  .card-mostpopular {
+    flex-direction: row;
+    margin: inherit;
   }
   .box-image {
     flex-direction: column;
