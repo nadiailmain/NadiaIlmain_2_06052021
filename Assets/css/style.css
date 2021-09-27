@@ -13,8 +13,8 @@ html, body {
 body {
   font-family: "Raleway", "sans-serif";
   font-size: 100%;
-  margin-left: 20px;
-  margin-right: 20px; 
+  margin-left: -2%;
+  margin-right: -8%;
   margin-bottom: auto;
 }
 
@@ -330,7 +330,7 @@ h3 {
   background-color: #f2f2f2;
   border-radius: 20px;
   margin-left: 5%;
-  width: 31, 34%;
+  width: 35%;
 }
 
 .mostpopular {
@@ -556,11 +556,10 @@ footer li {
 
 /*Responsive Design: Tablette*/
 
-@media screen and (max-width: 1024px) {
-
+@media screen and (max-width: 1200px) {
+ 
   header {
     padding: 0 0 10px;
-    margin-left: 2%;
   }
   .insideheader, .filters, .block-activity {
     padding: 0 20px 0px;
@@ -590,10 +589,8 @@ footer li {
     align-items: initial;
   }
   .hosting {
-    width: 86%;
+    width: 100%;
     margin-top: 30px;
-    margin-left: 5%;
-    margin-right: 5%;
   }
   .menu {
     text-align: 10px;
@@ -616,10 +613,14 @@ footer li {
   }
   #block-mostpopular {
     flex-direction: row;
+    width: 100%;
   }
   .box-mostpopular {
     width: 100%;
     height: 380px;
+  }
+  .box-mostpopular-title {
+    width: 90%;
   }
   .mostpopular {
     flex-direction: row;
@@ -672,8 +673,10 @@ footer li {
 
 /*petite résolution mobile et petits ecrans*/
 
-@media screen and (max-width: 480px) {
- 
+@media screen and (max-width: 700px) {
+  .header {
+    margin: 0;
+  }
   .logo {
     display: flex;
     position: absolute;
@@ -773,8 +776,7 @@ footer li {
     margin-right: 10px;
   }
   .hosting {
-    width: 100%;
-    padding: 0 0;
+    width: auto;
     background-color: white;
     height: auto;
     margin-top: 10px;
@@ -801,10 +803,8 @@ footer li {
   }
   #block-hosting_block-mostpopular {
     display: flex;
-    flex-direction: column-reverse;
     margin-bottom: 10px;
-    margin-left: 8px;
-    margin-right: -15px;
+    align-items: center;
   }
   .show-more {
     padding-top: 30px;
@@ -869,9 +869,10 @@ footer li {
   }
   .bloc_activity {
     flex-wrap: wrap;
-    margin-left: 40px;
-    margin-right: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
     height: auto;
+    width: auto;
   }
   .activity_card {
     margin-bottom: 20px;
@@ -905,7 +906,7 @@ footer li {
     height: 190px;
   }
   .footer {
-    padding: 0 0 60px;
+   
   }
   .block-footer {
     flex-direction: column;
