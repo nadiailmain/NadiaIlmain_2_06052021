@@ -13,9 +13,7 @@ html, body {
 body {
   font-family: "Raleway", "sans-serif";
   font-size: 100%;
-  margin-left: -2%;
-  margin-right: -8%;
-  margin-bottom: auto;
+  margin: auto;
 }
 
 .logo {
@@ -35,7 +33,12 @@ li {
 }
 
 .navigateur {
-  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1340px;
+  margin: auto
 }
 
 a {
@@ -92,6 +95,12 @@ a.signup {
   color: #0065fc;
 }
 
+.insideheader {
+  width: 100%;
+  max-width: 1340px;
+  margin: auto;
+}
+
 /* *******search******* */
 
 .search {
@@ -137,6 +146,12 @@ a.signup {
 }
 
 /* ********filters******** */
+
+.filters {
+  width: 100%;
+  margin: auto;
+  max-width: 1340px;
+}
 
 .filterphoto {
   display: flex;
@@ -212,6 +227,7 @@ a.signup {
   display: flex;
   flex-direction: row;
   margin-bottom: 60px;
+  padding: 0px 40px;
 }
 
 .menu h2, .title {
@@ -329,8 +345,8 @@ h3 {
   align-items: center;
   background-color: #f2f2f2;
   border-radius: 20px;
-  margin-left: 5%;
   width: 35%;
+  margin-left: 5%;
 }
 
 .mostpopular {
@@ -391,6 +407,7 @@ h3 {
 
 #activities {
   justify-content: space-between;
+  padding: 0px 40px;
 }
 
 .bloc_activity {
@@ -523,9 +540,6 @@ footer {
   background-color: #f2f2f2;
   height: 100%;
   padding: 0 0 50px 0px;
-  margin-left: -2%;
-  margin-right: -6%;
-  margin-bottom: auto;
 }
 
 .block-footer {
@@ -557,12 +571,14 @@ footer li {
 /*Responsive Design: Tablette*/
 
 @media screen and (max-width: 1200px) {
- 
   header {
     padding: 0 0 10px;
   }
-  .insideheader, .filters, .block-activity {
-    padding: 0 20px 0px;
+  .navigateur {
+    padding: 0 40px;
+  }
+  .insideheader, .filters {
+    padding: 0 40px 0px;
   }
   .title-filters {
     padding: 0 0 20px;
@@ -589,7 +605,7 @@ footer li {
     align-items: initial;
   }
   .hosting {
-    width: 100%;
+    width: auto;
     margin-top: 30px;
   }
   .menu {
@@ -614,6 +630,7 @@ footer li {
   #block-mostpopular {
     flex-direction: row;
     width: 100%;
+    margin: 0;
   }
   .box-mostpopular {
     width: 100%;
@@ -663,8 +680,7 @@ footer li {
     margin-top: 25px;
   }
   .footer {
-    margin-left: 0;
-    margin-right: 0;
+    width: auto;
   }
   .footer_column {
     padding: 10px 100px 10px 30px;
@@ -676,6 +692,9 @@ footer li {
 @media screen and (max-width: 700px) {
   .header {
     margin: 0;
+  }
+  .navigateur {
+    padding: 0;
   }
   .logo {
     display: flex;
@@ -732,6 +751,7 @@ footer li {
   #nav2 {
     width: 100%;
     list-style: none;
+    padding: 0;
   }
   .submit {
     display: none;
@@ -776,10 +796,10 @@ footer li {
     margin-right: 10px;
   }
   .hosting {
-    width: auto;
     background-color: white;
     height: auto;
     margin-top: 10px;
+    padding: 0;
   }
   .card-hosting {
     margin: 15px 0 0;
@@ -822,6 +842,8 @@ footer li {
   #block-mostpopular {
     margin: 0;
     width: 100%;
+    padding: inherit;
+    border-radius: 0;
   }
   #block-mostpopular img {
     display: flex;
@@ -869,8 +891,8 @@ footer li {
   }
   .bloc_activity {
     flex-wrap: wrap;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     height: auto;
     width: auto;
   }
@@ -906,7 +928,8 @@ footer li {
     height: 190px;
   }
   .footer {
-   
+    margin-left: 0;
+    margin-right: 0;
   }
   .block-footer {
     flex-direction: column;
