@@ -13,8 +13,7 @@ html, body {
 body {
   font-family: "Raleway", "sans-serif";
   font-size: 100%;
-  margin-left: 0;
-  margin-right: 0; 
+  margin: auto; 
 }
 
 .logo {
@@ -97,7 +96,8 @@ a.signup {
 }
 
 .insideheader {
-  margin-left: 3%;
+  padding-left: 50px;
+  padding-right: 50px; 
 }
 
 /* *******search******* */
@@ -147,8 +147,8 @@ a.signup {
 /* ********filters******** */
 
 .filters {
-  width: 100%;
-  margin-left: 3%;
+  padding-left: 50px; 
+  padding-right: 50px; 
 }
 
 .filterphoto {
@@ -229,7 +229,8 @@ a.signup {
   display: flex;
   flex-direction: row;
   margin-bottom: 60px;
-  padding: 0px 40px;
+  padding-left: 50px; 
+  padding-right: 50px; 
 }
 
 .menu h2, .title {
@@ -580,7 +581,6 @@ footer li {
     padding: 0 20px;
   }
   .filters {
-    margin-left: 6%;
     width: auto;
   }
   .title-filters {
@@ -593,9 +593,7 @@ footer li {
     flex-wrap: wrap;
     align-items: flex-start;
   }
-  .insideheader {
-    padding-left: 3%;
-  }
+
   #block-hosting_block-mostpopular {
     flex-direction: column-reverse;
   }
@@ -664,6 +662,8 @@ footer li {
   }
   #activities {
     flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px; 
   }
   .bloc_activity {
     height: 100%;
@@ -782,7 +782,7 @@ footer li {
     margin: 0;
   }
   .filters {
-    margin-left: 3%;
+    padding-left: 40px;
   }
   .filterphoto {
     flex-direction: column;
@@ -837,7 +837,6 @@ footer li {
     display: flex;
     margin-bottom: 10px;
     align-items: center;
-    margin-right: -4%;
   }
   .show-more {
     padding-top: 30px;
@@ -894,7 +893,6 @@ footer li {
   }
   #activities {
     padding: 0 40px 0;
-    margin-right: -4%;
   }
   #activities h2 {
     margin-left: 5%;
