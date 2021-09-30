@@ -13,12 +13,13 @@ html, body {
 body {
   font-family: "Raleway", "sans-serif";
   font-size: 100%;
-  margin: 0;
+  margin: 0; 
 }
 
 .logo {
   display: flex;
   position: absolute;
+  margin-left: 3%;
 }
 
 h1 {
@@ -37,7 +38,6 @@ li {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-left: 3%;
 }
 
 a {
@@ -216,6 +216,10 @@ a.signup {
   padding: 2px;
   text-align: center;
   color: #0065fc;
+}
+
+.filterI p {
+  margin-left: 10px;
 }
 
 /* ********hosting & most popular ********* */
@@ -572,14 +576,11 @@ footer li {
     padding: 0 0 10px;
   }
   .navigateur {
-    padding: 0 40px;
+    padding: 0 20px;
   }
   .filters {
-    margin-left: 5%;
+    margin-left: 6%;
     width: auto;
-  }
-  .insideheader {
-    margin-left: 5%;
   }
   .title-filters {
     padding: 0 0 20px;
@@ -591,8 +592,9 @@ footer li {
     flex-wrap: wrap;
     align-items: flex-start;
   }
-  .filterI {
-    padding-left: 10px;
+ 
+  .insideheader {
+    padding-left: 3%;
   }
   #block-hosting_block-mostpopular {
     flex-direction: column-reverse;
@@ -616,11 +618,14 @@ footer li {
     width: 100%;
   }
   .hosting-content {
-    margin-right: -3%;
-    margin-left: -3%;
+    margin-right: -2%;
+    margin-left: -2%;
+    width: auto;
   }
   .card-hosting {
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
   .card-mostpopular .details h3 {
     font-size: 14px;
@@ -659,7 +664,6 @@ footer li {
   }
   #activities {
     flex-direction: column;
-    padding: 0; 
   }
   .bloc_activity {
     height: 100%;
@@ -774,9 +778,11 @@ footer li {
     width: 280px;
     font-weight: bold;
   }
- 
   .h1 {
     margin: 0;
+  }
+  .filters {
+    margin-left: 3%;
   }
   .filterphoto {
     flex-direction: column;
@@ -804,7 +810,6 @@ footer li {
     height: auto;
     margin-top: 10px;
     padding: 0;
-    margin-right: -5%;
     width: auto;
   }
   .card-hosting {
@@ -830,6 +835,7 @@ footer li {
     display: flex;
     margin-bottom: 10px;
     align-items: center;
+    margin-right: -3%;
   }
   .show-more {
     padding-top: 30px;
@@ -884,6 +890,9 @@ footer li {
     margin: 0px 20px 0px 20px;
     margin-top: 10px;
   }
+  #activities {
+    padding: 0 20px;
+  }
   #activities h2 {
     margin-left: 5%;
     margin-top: 10%;
@@ -894,8 +903,6 @@ footer li {
   }
   .bloc_activity {
     flex-wrap: wrap;
-    margin-left: 5%;
-    margin-right: 5%;
     height: auto;
     width: auto;
   }
