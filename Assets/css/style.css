@@ -13,6 +13,7 @@ html, body {
 body {
   font-family: "Raleway", "sans-serif";
   font-size: 100%;
+  margin: 0;
 }
 
 .logo {
@@ -658,6 +659,7 @@ footer li {
   }
   #activities {
     flex-direction: column;
+    padding: 0; 
   }
   .bloc_activity {
     height: 100%;
@@ -680,7 +682,7 @@ footer li {
     margin-top: 25px;
   }
   .footer {
-    width: auto;
+    width: 100%;
   }
   .footer_column {
     padding: 10px 100px 10px 30px;
@@ -772,9 +774,7 @@ footer li {
     width: 280px;
     font-weight: bold;
   }
-  .insideheader {
-    margin: 0;
-  }
+ 
   .h1 {
     margin: 0;
   }
