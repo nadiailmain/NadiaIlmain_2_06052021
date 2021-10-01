@@ -607,6 +607,7 @@ footer li {
   .hosting {
     width: 90%;
     margin-top: 30px;
+    padding-left: 4%; 
   }
   .box-hosting {
     width: 100%;
@@ -656,8 +657,8 @@ footer li {
   }
   #activities {
     flex-direction: column;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   .bloc_activity {
     height: 100%;
@@ -691,7 +692,7 @@ footer li {
 
 @media screen and (max-width: 700px) {
   .body {
-    margin-right: -3%; 
+   margin-right: -5%; 
   }
   .header {
     margin: 0;
