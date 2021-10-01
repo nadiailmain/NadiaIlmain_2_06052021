@@ -605,7 +605,7 @@ footer li {
     align-items: initial;
   }
   .hosting {
-    width: 88%;
+    width: 90%;
     margin-top: 30px;
   }
   .box-hosting {
@@ -690,6 +690,9 @@ footer li {
 /*petite résolution mobile et petits ecrans*/
 
 @media screen and (max-width: 700px) {
+  .body {
+    margin-right: -3%; 
+  }
   .header {
     margin: 0;
   }
@@ -829,7 +832,7 @@ footer li {
     display: flex;
     margin-bottom: 10px;
     align-items: center;
-    margin-right: -7%;
+    margin-right: -6%;
     margin-left: -3%; 
   }
   .show-more {
