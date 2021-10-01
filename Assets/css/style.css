@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
-/*----- OPTION -----*/
-
-/*- Permet de ralentir le scroll d'une page lors de l'utilisation
- d'une ancre sur une même page */
-
-html, body {
-  scroll-behavior: smooth;
-}
 
 /* body */
 
@@ -409,7 +401,6 @@ h3 {
 /* **********Activities********** */
 
 #activities {
-  justify-content: space-between;
   padding: 0px 40px;
 }
 
@@ -542,7 +533,6 @@ h3 {
 footer {
   background-color: #f2f2f2;
   height: 100%;
-  padding: 0 0 50px 0px;
 }
 
 .block-footer {
@@ -657,8 +647,6 @@ footer li {
   }
   #activities {
     flex-direction: column;
-    padding-left: 40px;
-    padding-right: 40px;
   }
   .bloc_activity {
     height: 100%;
@@ -709,7 +697,6 @@ footer li {
   }
   li {
     font-size: 17px;
-    margin-right: -0.9%;
   }
   .signup {
     display: flex;
@@ -832,9 +819,7 @@ footer li {
   #block-hosting_block-mostpopular {
     display: flex;
     margin-bottom: 10px;
-    align-items: center;
-    margin-right: -6%;
-    margin-left: -3%; 
+    align-items: center; 
   }
   .show-more {
     padding-top: 30px;
@@ -845,15 +830,15 @@ footer li {
   }
   .block-mostpopular {
     flex-direction: row;
-    width: auto;
+    width: 100%;
     margin-left: 0;
     order: 1;
   }
   #block-mostpopular {
-    margin: 0;
     width: 100%;
-    padding: inherit;
     border-radius: 0;
+    padding: inherit;
+    
   }
   #block-mostpopular img {
     display: flex;
@@ -889,10 +874,7 @@ footer li {
     margin: 0px 20px 0px 20px;
     margin-top: 10px;
   }
-  #activities {
-    margin-left: -5%;
-    margin-right: -7%; 
-  }
+ 
   #activities h2 {
     margin-left: 5%;
     margin-top: 10%;
