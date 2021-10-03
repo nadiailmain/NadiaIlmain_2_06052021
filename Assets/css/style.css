@@ -838,7 +838,7 @@ footer li {
     width: 100%;
     border-radius: 0;
     padding: inherit;
-    
+
   }
   #block-mostpopular img {
     display: flex;
@@ -886,7 +886,7 @@ footer li {
   .bloc_activity {
     flex-wrap: wrap;
     height: auto;
-    width: auto;
+   
   }
   .activity_card {
     margin-bottom: 20px;
@@ -926,7 +926,5 @@ footer li {
   .block-footer {
     flex-direction: column;
   }
-  .footer-column {
-    padding: 10px 10px 10px 10px;
-  }
+ 
 }
