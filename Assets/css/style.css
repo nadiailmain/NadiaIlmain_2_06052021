@@ -598,7 +598,7 @@ footer li {
     align-items: initial;
   }
   .hosting {
-    width: 89%;
+    width: auto;
     margin-top: 30px;
   }
   .box-hosting {
