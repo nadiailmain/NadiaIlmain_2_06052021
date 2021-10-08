@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
-
 /* body */
 
 body {
   font-family: "Raleway", "sans-serif";
   font-size: 100%;
-  margin-right: 0; 
+  margin-right: 0;
   margin-left: 0;
   margin-bottom: 0;
 }
@@ -141,8 +140,9 @@ a.signup {
 /* ********filters******** */
 
 .filters {
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .filterphoto {
@@ -229,6 +229,7 @@ a.signup {
 
 .menu h2, .title {
   font-size: 23px;
+  margin-left: 2%; 
 }
 
 .card-hosting .details h3 {
@@ -246,6 +247,7 @@ a.signup {
 h3 {
   font-size: 14px;
   margin-bottom: 5px;
+  margin-left: -2%; 
 }
 
 .hosting {
@@ -298,6 +300,7 @@ h3 {
   border-radius: 15px;
   padding: 4px;
   margin: 2%;
+  height: 205px;
 }
 
 .card-hosting:hover {
@@ -314,8 +317,9 @@ h3 {
 
 .details {
   margin-left: 10px;
-  position: relative;
-  flex-basis: 60%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
 }
 
 .details p {
@@ -383,7 +387,7 @@ h3 {
 }
 
 .stars.pop {
-  position: absolute;
+  margin-top: auto;
 }
 
 #block-mostpopular img {
@@ -682,7 +686,7 @@ footer li {
 
 @media screen and (max-width: 700px) {
   .body {
-   margin-right: -5%; 
+    margin-right: -5%;
   }
   .header {
     margin: 0;
@@ -821,7 +825,7 @@ footer li {
   #block-hosting_block-mostpopular {
     display: flex;
     margin-bottom: 10px;
-    align-items: center; 
+    align-items: center;
   }
   .show-more {
     padding-top: 30px;
@@ -840,7 +844,6 @@ footer li {
     width: 100%;
     border-radius: 0;
     padding: inherit;
-
   }
   #block-mostpopular img {
     display: flex;
@@ -876,9 +879,7 @@ footer li {
     margin: 0px 20px 0px 20px;
     margin-top: 10px;
   }
- 
   #activities h2 {
-    margin-left: 5%;
     margin-top: 10%;
   }
   #activities.title {
@@ -888,7 +889,6 @@ footer li {
   .bloc_activity {
     flex-wrap: wrap;
     height: auto;
-   
   }
   .activity_card {
     margin-bottom: 20px;
@@ -928,5 +928,4 @@ footer li {
   .block-footer {
     flex-direction: column;
   }
- 
 }
