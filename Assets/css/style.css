@@ -247,7 +247,6 @@ a.signup {
 h3 {
   font-size: 14px;
   margin-bottom: 5px;
-  margin-left: -2%; 
 }
 
 .hosting {
@@ -320,6 +319,7 @@ h3 {
   height: 80px;
   display: flex;
   flex-direction: column;
+  width: auto;
 }
 
 .details p {
