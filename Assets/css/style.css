@@ -9,21 +9,26 @@ body {
   margin-bottom: 0;
 }
 
+/* Entete de la page */
+
 .logo {
   display: flex;
   position: absolute;
   margin-left: 3%;
+  /*Placement du logo */
 }
 
 h1 {
   font-size: 20px;
+  /*Taille du Titre*/
 }
 
 /* Navigateur */
-
+''
 li {
   flex-wrap: nowrap;
   flex-direction: row;
+  /*Disposition des différentes parties du navigateur sur une ligne */
 }
 
 .navigateur {
@@ -32,12 +37,14 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
   margin-right: 3%;
+  /*Emplacement des rubriques de navigation*/
 }
 
 a {
   color: black;
   text-decoration: none;
   list-style: none;
+  /*couleur du texte des liens*/
 }
 
 nav {
@@ -46,6 +53,7 @@ nav {
   flex-direction: row-reverse;
   align-items: center;
   justify-items: center;
+  /*Emplacement des rubriques de navigation*/
 }
 
 #nav1 {
@@ -53,6 +61,7 @@ nav {
   justify-content: flex-end;
   list-style: none;
   padding-left: 0;
+  /*emplacement du bouton s'inscrire*/
 }
 
 #nav2 {
@@ -60,6 +69,7 @@ nav {
   height: auto;
   justify-content: center;
   list-style: none;
+  /*emplacement du bouton hébergement et activités*/
 }
 
 nav a {
@@ -70,11 +80,13 @@ nav a {
 .navlink:hover {
   border-top: 3px solid #0065fc;
   color: #0065fc;
+  /*Pour rajouter l'effet de changement de couleur lors du passage de la souris*/
 }
 
 .active {
   border-top: 3px solid #0065fc;
   color: #0065fc;
+  /*Pour afficher la barre bleue sur la partie navigateur */
 }
 
 a.signup {
@@ -86,11 +98,13 @@ a.signup {
 .signup:hover {
   border-top: 3px solid #0065fc;
   color: #0065fc;
+  /*Pour afficher le changement de couleur lors du passage de la souris sur la partie s'inscrire */
 }
 
 .insideheader {
   padding-left: 50px;
   padding-right: 50px;
+  /*positionnement du contenu texte et filtres*/
 }
 
 /* *******search******* */
@@ -99,6 +113,7 @@ a.signup {
   display: flex;
   align-items: center;
   margin: 10px 0 10px 0;
+  /*Emplacement du bouton de recherche*/
 }
 
 .search i {
@@ -106,6 +121,7 @@ a.signup {
   padding: 13px 15px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  /*Emplacement  de l'icone i et le bouton de recherche */
 }
 
 .submit {
@@ -119,6 +135,7 @@ a.signup {
   width: auto;
   border: none;
   font-weight: bold;
+  /*Emplacement du bouton rechercher, la taille du texte, la couleur de l'arrière plan*/
 }
 
 #mysearch {
@@ -131,10 +148,12 @@ a.signup {
 ::placeholder {
   color: grey;
   font-size: 16px;
+  /* Couleur de fond de la box texte de recherche*/
 }
 
 .search .fa-search {
   display: none;
+  /*Mettre l'icone rechercher loupe en mode invisible */
 }
 
 /* ********filters******** */
@@ -143,6 +162,7 @@ a.signup {
   margin-left: 50px;
   display: flex;
   flex-direction: column;
+  /*Filtres de recherche  par type d'hébergement et prix */
 }
 
 .filterphoto {
@@ -320,7 +340,7 @@ h3 {
   height: 80px;
   display: flex;
   flex-direction: column;
-  width:60%; 
+  width: 60%;
 }
 
 .details p {
@@ -653,7 +673,7 @@ footer li {
     border-radius: 15px 15px 0 0;
   }
   .details {
-    width: auto; 
+    width: auto;
   }
   #activities {
     flex-direction: column;
@@ -765,7 +785,7 @@ footer li {
     display: inline-block;
     border-radius: 15px 15px 15px 15px;
     background-color: #0065fc;
-    margin-left: -15px; 
+    margin-left: -15px;
   }
   .fa-search:before {
     color: #ffffff;
@@ -880,7 +900,6 @@ footer li {
     flex-direction: column;
     align-items: center;
   }
-
   .activities {
     margin: 0px 20px 0px 20px;
     margin-top: 10px;
