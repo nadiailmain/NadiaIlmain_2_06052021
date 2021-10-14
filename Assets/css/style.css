@@ -797,9 +797,7 @@ footer li {
   .h1 {
     margin: 0;
   }
-  .filters {
-    padding-left: 40px;
-  }
+
   .filterphoto {
     flex-direction: column;
   }
