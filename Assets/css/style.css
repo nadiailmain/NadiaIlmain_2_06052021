@@ -4,9 +4,6 @@
 body {
   font-family: "Raleway", "sans-serif";
   font-size: 100%;
-  margin-right: 0;
-  margin-left: 0;
-  margin-bottom: 0;
 }
 
 /* Entete de la page */
@@ -24,7 +21,7 @@ h1 {
 }
 
 /* Navigateur */
-''
+
 li {
   flex-wrap: nowrap;
   flex-direction: row;
@@ -84,7 +81,6 @@ nav a {
 }
 
 .active {
-  border-top: 3px solid #0065fc;
   color: #0065fc;
   /*Pour afficher la barre bleue sur la partie navigateur */
 }
@@ -93,12 +89,6 @@ a.signup {
   text-decoration: none;
   font-weight: bold;
   color: #0065fc;
-}
-
-.signup:hover {
-  border-top: 3px solid #0065fc;
-  color: #0065fc;
-  /*Pour afficher le changement de couleur lors du passage de la souris sur la partie s'inscrire */
 }
 
 .insideheader {
@@ -243,8 +233,8 @@ a.signup {
   display: flex;
   flex-direction: row;
   margin-bottom: 60px;
-  padding-left: 40px;
-  padding-right: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .menu h2, .title {
@@ -276,7 +266,7 @@ h3 {
   border-radius: 20px;
   padding: 0 40px 40px;
   background-color: #f2f2f2;
-  width: 60%;
+  width: 65%;
 }
 
 .box-hosting.card-hosting {
@@ -320,7 +310,7 @@ h3 {
   border-radius: 15px;
   padding: 4px;
   margin: 2%;
-  height: 205px;
+  height: 42%;
 }
 
 .card-hosting:hover {
@@ -340,7 +330,6 @@ h3 {
   height: 80px;
   display: flex;
   flex-direction: column;
-  width: 60%;
 }
 
 .details p {
@@ -367,15 +356,16 @@ h3 {
   align-items: center;
   background-color: #f2f2f2;
   border-radius: 20px;
-  width: 35%;
-  margin-left: 5%;
+  width: 30%;
+  margin-left: 3%;
 }
 
 .mostpopular {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 90%;
+  margin-top: 10px;
 }
 
 .box-mostpopular {
@@ -418,7 +408,7 @@ h3 {
   border-radius: 15px 0px 0px 15px;
   object-fit: cover;
   background-color: #ffffff;
-  height: 120px;
+  height: 145px;
 }
 
 .card-mostpopular p {
@@ -797,7 +787,6 @@ footer li {
   .h1 {
     margin: 0;
   }
-
   .filterphoto {
     flex-direction: column;
   }
