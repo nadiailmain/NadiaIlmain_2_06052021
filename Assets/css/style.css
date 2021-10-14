@@ -109,7 +109,7 @@ a.signup {
 }
 
 .submit {
-  padding: 12px;
+  padding: 13px;
   font-size: 14px;
   background-color: #0065fc;
   cursor: pointer;
@@ -123,7 +123,7 @@ a.signup {
 
 #mysearch {
   border: 1px solid #f2f2f2;
-  padding: 12.5px;
+  padding: 13px;
   margin: 0px;
   font-weight: 600;
 }
