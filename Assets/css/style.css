@@ -680,6 +680,7 @@ footer li {
   .details {
     width: auto;
   }
+
   #activities {
     flex-direction: column;
   }
@@ -806,7 +807,7 @@ footer li {
     flex-direction: column;
   }
   .filterphoto>h2 {
-    padding: 0 0 10px 0;
+    padding: 10px 0;
   }
   .filter-container {
     flex-wrap: wrap;
